@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fin-research-agent"
+version = "0.4.0"
+description = "Evidence-first financial report analysis agent"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "pydantic>=2.7,<3",
+  "pypdf>=5,<7",
+  "pdfplumber>=0.11,<1",
+  "Pillow>=10,<13",
+  "mcp>=2,<3",
+  "requests>=2.32,<3",
+]
+
+[project.scripts]
+fin-agent = "fin_agent.cli:main"
+fin-agent-mcp = "fin_agent.mcp_server:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

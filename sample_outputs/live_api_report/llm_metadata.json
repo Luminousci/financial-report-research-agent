@@ -1,0 +1,25 @@
+{
+  "provider": "deepseek",
+  "status": "passed",
+  "requested_model": "deepseek-flash",
+  "returned_model": "deepseek-flash",
+  "prompt_version": "financial-analysis-v4",
+  "request_hash": "2b8b52a9e204c7a7dd5cd8c5fd4bb88bc6fb4bc376722d1f124a4ca87bd0c414",
+  "response_hash": "9914e4839ccb6ca7fc2977fe82ca93cc4c223fd3d4a64c09a1ede0c93cdb34e6",
+  "response_id": "d4d7b8d1-63d3-4785-840b-5705e81e538b",
+  "usage": {
+    "prompt_tokens": 2707,
+    "completion_tokens": 1840,
+    "total_tokens": 4547,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 2707
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+  "started_at": "2026-09-27T07:47:30.919293+00:00",
+  "finished_at": "2026-09-27T07:47:38.288496+00:00",
+  "duration_ms": 7368.364,
+  "cache_hit": false
+}

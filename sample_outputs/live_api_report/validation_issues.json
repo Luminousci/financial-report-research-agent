@@ -1,0 +1,3 @@
+[
+  "ValidationIssue(code='document_scope_limited', severity='info', message='该文件为简短业务公告，已提取7项区间型经营指标；不包含完整财务报表，系统不会补造利润、现金流等缺失指标。', evidence_refs=[])"
+]

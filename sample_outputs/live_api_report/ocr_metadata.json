@@ -1,0 +1,38 @@
+[
+  {
+    "provider": "aistudio",
+    "status": "passed",
+    "started_at": "2026-09-27T07:47:28.434726+00:00",
+    "input_sha256": "eee8e62bfa2358ca02e1fb70a9fe82db844d2edc8ee17e0d7fa1a1bf4bb87c5d",
+    "request_hash": "e050d50c6a73bd561fb81607f426efbf89633fd38e856a66f7ca1e768b50ed8b",
+    "request_style": "paddleocr_job",
+    "auth_scheme": "bearer",
+    "job_id": "97599985519943680",
+    "model": "PaddleOCR-VL-1.6",
+    "poll_count": 1,
+    "final_state": "done",
+    "result_lines": 1,
+    "response_hash": "2a85f44ede1d24a848a736d76155a12aa6adb69ab3e2c72919e5cd0a985f3aec",
+    "recognized_characters": 636,
+    "finished_at": "2026-09-27T07:47:29.572717+00:00",
+    "duration_ms": 1139.172
+  },
+  {
+    "provider": "aistudio",
+    "status": "passed",
+    "started_at": "2026-09-27T07:47:30.139132+00:00",
+    "input_sha256": "5164c97de2a7413d18c4e736c397ca4b970329ce1d8910c19e705c240c00f8e4",
+    "request_hash": "af39321155dab98d3a3814fa22b3a52dd61dd2af914bba0d205b8544e9d40aa7",
+    "request_style": "paddleocr_job",
+    "auth_scheme": "bearer",
+    "job_id": "97599990089035776",
+    "model": "PaddleOCR-VL-1.6",
+    "poll_count": 1,
+    "final_state": "done",
+    "result_lines": 1,
+    "response_hash": "b724a5ace750f3cc34c594d3b8d1c433a2f6bc5c65c6095a3e07bcfc37e4831b",
+    "recognized_characters": 387,
+    "finished_at": "2026-09-27T07:47:30.630309+00:00",
+    "duration_ms": 491.279
+  }
+]

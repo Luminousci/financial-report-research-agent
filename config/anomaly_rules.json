@@ -1,0 +1,23 @@
+{
+  "cash_profit_growth_divergence": {
+    "name": "利润增长与经营现金流下降",
+    "scope": ["non_financial"],
+    "severity": "high",
+    "description": "归母净利润同比为正而经营活动现金流净额同比为负。"
+  },
+  "low_cash_conversion": {
+    "name": "利润现金含量偏低",
+    "scope": ["non_financial"],
+    "severity": "medium",
+    "threshold": 0.8,
+    "description": "经营活动现金流净额与归母净利润之比低于阈值。"
+  },
+  "nonrecurring_dependency": {
+    "name": "非经常性损益影响较大",
+    "scope": ["non_financial", "bank"],
+    "severity": "medium",
+    "threshold": 0.3,
+    "description": "归母净利润与扣非归母净利润的差额占归母净利润比例较高。"
+  }
+}
+

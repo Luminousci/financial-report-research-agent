@@ -1,0 +1,482 @@
+{
+  "document": {
+    "document_id": "6ffeae42c1fac36c",
+    "path": "E:\\金融人工智能\\年报\\泡泡玛特年报\\第一季度报告.pdf",
+    "file_name": "第一季度报告.pdf",
+    "sha256": "6ffeae42c1fac36cbc2a71f60da927091e4851b2667b3549e661bcf949729b8b",
+    "page_count": 2,
+    "company_name": "泡泡玛特国际集团有限公司",
+    "security_code": "09992",
+    "report_year": 2025,
+    "report_type": "business_update",
+    "industry_profile": "non_financial",
+    "accounting_standard": "IFRS",
+    "currency": "CNY",
+    "unit_scale": "1",
+    "native_text_ratio": 0.0,
+    "ocr_pages": [
+      1,
+      2
+    ],
+    "limitations": [
+      "The document is a short business update rather than a complete quarterly financial report."
+    ]
+  },
+  "facts": [],
+  "calculations": [],
+  "validations": [
+    {
+      "code": "document_scope_limited",
+      "severity": "info",
+      "message": "该文件为简短业务公告，已提取7项区间型经营指标；不包含完整财务报表，系统不会补造利润、现金流等缺失指标。",
+      "evidence_refs": []
+    }
+  ],
+  "findings": [
+    {
+      "rule_id": "business_region_growth_dispersion",
+      "title": "区域增速分化显著",
+      "severity": "medium",
+      "classification": "calculation",
+      "description": "各区域披露的同比增速区间跨度约为555个百分点。",
+      "evidence_refs": [
+        {
+          "document_id": "6ffeae42c1fac36c",
+          "file_name": "第一季度报告.pdf",
+          "page": 2,
+          "table_index": null,
+          "row_index": null,
+          "raw_label": "亚太",
+          "raw_value": "345-350%",
+          "evidence_text": "(1) 亞太 $ ^{2} $同比增長345%-350%；",
+          "extraction_method": "ocr:aistudio",
+          "confidence": 0.95
+        },
+        {
+          "document_id": "6ffeae42c1fac36c",
+          "file_name": "第一季度报告.pdf",
+          "page": 2,
+          "table_index": null,
+          "row_index": null,
+          "raw_label": "美洲",
+          "raw_value": "895-900%",
+          "evidence_text": "(2) 美洲同比增長895%-900%；",
+          "extraction_method": "ocr:aistudio",
+          "confidence": 0.95
+        }
+      ],
+      "counter_evidence": "高增速可能受低基数、渠道扩张和区域口径差异影响，需用绝对收入及利润率复核。",
+      "applicable_scope": "business_update"
+    }
+  ],
+  "narrative_evidence": [],
+  "nonrecurring_items": [],
+  "external_evidence": [],
+  "health_assessment": {
+    "profile": "business_update",
+    "score": null,
+    "grade": "不适用",
+    "status": "insufficient",
+    "coverage_ratio": "0",
+    "methodology": "经营快报仅披露区间型收益增速，不适用完整财报健康评分。",
+    "components": [],
+    "limitations": [
+      "需结合完整利润表、资产负债表和现金流量表后再评分。"
+    ]
+  },
+  "llm_analysis": {
+    "summary": {
+      "claim": "泡泡玛特国际集团有限公司（09992）2025年第一季度经营快报显示，整体收益同比增长165%-170%，其中中国收益同比增长95%-100%，海外收益同比增长475%-480%，海外增速显著高于中国。该文件为简短业务公告，不含完整财务报表，健康度评分不适用。",
+      "classification": "披露事实",
+      "evidence_refs": [
+        {
+          "document_id": "6ffeae42c1fac36c",
+          "page": 1,
+          "evidence_text": "二零二五年第一季度整體收益（未經審核），較二零二四年第一季度同比增長165%-170%，其中中國收益同比增長95%-100%，海外收益同比增長475%-480%。"
+        }
+      ]
+    },
+    "performance": [
+      {
+        "claim": "整体收益同比增长165%-170%（未经审核），为区间型经营披露，上下限须完整保留，不得取中点。",
+        "classification": "披露事实",
+        "evidence_refs": [
+          {
+            "document_id": "6ffeae42c1fac36c",
+            "page": 1,
+            "evidence_text": "二零二五年第一季度整體收益（未經審核），較二零二四年第一季度同比增長165%-170%"
+          }
+        ]
+      },
+      {
+        "claim": "中国收益同比增长95%-100%，海外收益同比增长475%-480%，海外增速约为中国增速的4.8-5.1倍（按区间端点粗算，属分析推论）。",
+        "classification": "分析推论",
+        "evidence_refs": [
+          {
+            "document_id": "6ffeae42c1fac36c",
+            "page": 1,
+            "evidence_text": "其中中國收益同比增長95%-100%，海外收益同比增長475%-480%"
+          }
+        ]
+      },
+      {
+        "claim": "分渠道看，线下渠道收益同比增长85%-90%，线上渠道收益同比增长140%-145%，线上增速高于线下。",
+        "classification": "披露事实",
+        "evidence_refs": [
+          {
+            "document_id": "6ffeae42c1fac36c",
+            "page": 1,
+            "evidence_text": "(1) 線下渠道同比增長85%-90%；(2) 線上渠道同比增長140%-145%。"
+          }
+        ]
+      },
+      {
+        "claim": "分区域看，亚太收益同比增长345%-350%，美洲收益同比增长895%-900%，美洲增速为各披露区域中最高。",
+        "classification": "披露事实",
+        "evidence_refs": [
+          {
+            "document_id": "6ffeae42c1fac36c",
+            "page": 2,
+            "evidence_text": "(1) 亞太同比增長345%-350%；(2) 美洲同比增長895%-900%；"
+          }
+        ]
+      },
+      {
+        "claim": "各区域披露的同比增速区间跨度约为555个百分点（美洲上限900%减亚太下限345%），区域增速分化显著。",
+        "classification": "程序计算",
+        "evidence_refs": [
+          {
+            "document_id": "6ffeae42c1fac36c",
+            "page": 2,
+            "evidence_text": "(1) 亞太同比增長345%-350%；(2) 美洲同比增長895%-900%；"
+          }
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "claim": "区域增速分化显著（规则business_region_growth_dispersion，严重度medium），高增速区域可能受低基数、渠道扩张和区域口径差异影响，需用绝对收入及利润率复核。",
+        "classification": "分析推论",
+        "evidence_refs": [
+          {
+            "document_id": "6ffeae42c1fac36c",
+            "page": 2,
+            "evidence_text": "(1) 亞太同比增長345%-350%；(2) 美洲同比增長895%-900%；"
+          }
+        ]
+      },
+      {
+        "claim": "该文件为简短业务公告，不含完整利润表、资产负债表和现金流量表，无法评估利润、现金流、应收账款或存货质量，相关风险证据不足，需补充材料。",
+        "classification": "披露事实",
+        "evidence_refs": [
+          {
+            "document_id": "6ffeae42c1fac36c",
+            "page": 1,
+            "evidence_text": "二零二五年第一季度整體收益（未經審核）"
+          }
+        ]
+      },
+      {
+        "claim": "所有收益增速均为未经审核数据，且以区间形式披露，实际结果可能落在区间内或与区间存在偏差，存在披露口径与最终审计口径不一致的风险。",
+        "classification": "分析推论",
+        "evidence_refs": [
+          {
+            "document_id": "6ffeae42c1fac36c",
+            "page": 1,
+            "evidence_text": "二零二五年第一季度整體收益（未經審核）"
+          }
+        ]
+      }
+    ],
+    "counter_evidence": [
+      {
+        "claim": "高增速可能受低基数效应影响：2024年第一季度基数较低时，同比增速会被放大，需结合绝对收入规模判断增长质量。",
+        "classification": "分析推论",
+        "evidence_refs": [
+          {
+            "document_id": "6ffeae42c1fac36c",
+            "page": 2,
+            "evidence_text": "(1) 亞太同比增長345%-350%；(2) 美洲同比增長895%-900%；"
+          }
+        ]
+      },
+      {
+        "claim": "海外高增速可能部分来自渠道扩张和区域口径差异，而非同店或存量业务的内生增长，需用绝对收入及利润率复核。",
+        "classification": "分析推论",
+        "evidence_refs": [
+          {
+            "document_id": "6ffeae42c1fac36c",
+            "page": 1,
+            "evidence_text": "海外收益同比增長475%-480%"
+          }
+        ]
+      },
+      {
+        "claim": "线上渠道增速（140%-145%）高于线下（85%-90%），可能反映渠道结构变化，但公告未披露各渠道绝对收入及占比，无法判断结构变化对利润率的影响。",
+        "classification": "分析推论",
+        "evidence_refs": [
+          {
+            "document_id": "6ffeae42c1fac36c",
+            "page": 1,
+            "evidence_text": "(1) 線下渠道同比增長85%-90%；(2) 線上渠道同比增長140%-145%。"
+          }
+        ]
+      }
+    ],
+    "tracking_metrics": [
+      {
+        "claim": "后续应跟踪完整季度利润表，关注毛利率、经营利润率和净利润率是否与收益增速匹配。",
+        "classification": "观点",
+        "evidence_refs": [
+          {
+            "document_id": "6ffeae42c1fac36c",
+            "page": 1,
+            "evidence_text": "二零二五年第一季度整體收益（未經審核）"
+          }
+        ]
+      },
+      {
+        "claim": "后续应跟踪各区域绝对收入规模及占比，以判断高增速区域的收入贡献和增长可持续性。",
+        "classification": "观点",
+        "evidence_refs": [
+          {
+            "document_id": "6ffeae42c1fac36c",
+            "page": 2,
+            "evidence_text": "(1) 亞太同比增長345%-350%；(2) 美洲同比增長895%-900%；"
+          }
+        ]
+      },
+      {
+        "claim": "后续应跟踪线下与线上渠道的绝对收入及占比变化，评估渠道结构对利润率的影响。",
+        "classification": "观点",
+        "evidence_refs": [
+          {
+            "document_id": "6ffeae42c1fac36c",
+            "page": 1,
+            "evidence_text": "(1) 線下渠道同比增長85%-90%；(2) 線上渠道同比增長140%-145%。"
+          }
+        ]
+      },
+      {
+        "claim": "后续应跟踪现金流量表和资产负债表，评估经营现金流与收益增长的匹配度及营运资金变化。",
+        "classification": "观点",
+        "evidence_refs": [
+          {
+            "document_id": "6ffeae42c1fac36c",
+            "page": 1,
+            "evidence_text": "二零二五年第一季度整體收益（未經審核）"
+          }
+        ]
+      }
+    ],
+    "limitations": [
+      {
+        "claim": "该文件为简短业务公告（business_update），非完整季度财务报告，仅提取7项区间型经营指标，不含利润、现金流等完整财务数据。",
+        "classification": "披露事实",
+        "evidence_refs": [
+          {
+            "document_id": "6ffeae42c1fac36c",
+            "page": 1,
+            "evidence_text": "二零二五年第一季度整體收益（未經審核）"
+          }
+        ]
+      },
+      {
+        "claim": "健康度评分不适用（profile为business_update，score为null，grade为不适用，coverage_ratio为0），因经营快报仅披露区间型收益增速，不适用完整财报健康评分；该评分仅为透明规则的内部筛查结果，不构成信用评级、目标价或投资建议。",
+        "classification": "程序计算",
+        "evidence_refs": [
+          {
+            "document_id": "6ffeae42c1fac36c",
+            "page": 1,
+            "evidence_text": "二零二五年第一季度整體收益（未經審核）"
+          }
+        ]
+      },
+      {
+        "claim": "所有指标均为未经审核数据，且以区间形式披露，上下限须完整保留，不得擅自取中点；不得将未经审计收益增速等同于利润增长。",
+        "classification": "披露事实",
+        "evidence_refs": [
+          {
+            "document_id": "6ffeae42c1fac36c",
+            "page": 1,
+            "evidence_text": "二零二五年第一季度整體收益（未經審核），較二零二四年第一季度同比增長165%-170%"
+          }
+        ]
+      },
+      {
+        "claim": "本文件为OCR提取（native_text_ratio为0，ocr_pages为[1,2]），存在文字识别误差可能，关键数据需与原始文件核对。",
+        "classification": "程序计算",
+        "evidence_refs": [
+          {
+            "document_id": "6ffeae42c1fac36c",
+            "page": 1,
+            "evidence_text": "二零二五年第一季度整體收益（未經審核）"
+          }
+        ]
+      },
+      {
+        "claim": "未提供外部证据，无法进行外部口径与财报口径的交叉验证。",
+        "classification": "披露事实",
+        "evidence_refs": []
+      }
+    ]
+  },
+  "run_id": "20260927_154727_257287_第一季度报告",
+  "run_dir": "E:\\金融人工智能\\fin_research_agent\\outputs\\20260927_154727_257287_第一季度报告",
+  "business_metrics": [
+    {
+      "metric_code": "overall_revenue_yoy",
+      "metric_name": "整体收益同比",
+      "lower_value": "165",
+      "upper_value": "170",
+      "unit": "%",
+      "comparison_kind": "yoy_pct",
+      "period_label": "FY2025_Q1",
+      "scope": "整体收益",
+      "source": {
+        "document_id": "6ffeae42c1fac36c",
+        "file_name": "第一季度报告.pdf",
+        "page": 1,
+        "table_index": null,
+        "row_index": null,
+        "raw_label": "整体收益",
+        "raw_value": "165-170%",
+        "evidence_text": "## 二零二五 年第一季度整體收益表現 二零二五年第一季度整體收益（未經審核），較二零二四年第一季度同比增長165%-170%，其中中國收益同比增長95%-100%，海外 $ ^{1} $收益同比增長475%-480%。",
+        "extraction_method": "ocr:aistudio",
+        "confidence": 0.95
+      }
+    },
+    {
+      "metric_code": "china_revenue_yoy",
+      "metric_name": "中国收益同比",
+      "lower_value": "95",
+      "upper_value": "100",
+      "unit": "%",
+      "comparison_kind": "yoy_pct",
+      "period_label": "FY2025_Q1",
+      "scope": "中国",
+      "source": {
+        "document_id": "6ffeae42c1fac36c",
+        "file_name": "第一季度报告.pdf",
+        "page": 1,
+        "table_index": null,
+        "row_index": null,
+        "raw_label": "中国",
+        "raw_value": "95-100%",
+        "evidence_text": "二零二五年第一季度整體收益（未經審核），較二零二四年第一季度同比增長165%-170%，其中中國收益同比增長95%-100%，海外 $ ^{1} $收益同比增長475%-480%。",
+        "extraction_method": "ocr:aistudio",
+        "confidence": 0.95
+      }
+    },
+    {
+      "metric_code": "overseas_revenue_yoy",
+      "metric_name": "海外收益同比",
+      "lower_value": "475",
+      "upper_value": "480",
+      "unit": "%",
+      "comparison_kind": "yoy_pct",
+      "period_label": "FY2025_Q1",
+      "scope": "海外",
+      "source": {
+        "document_id": "6ffeae42c1fac36c",
+        "file_name": "第一季度报告.pdf",
+        "page": 1,
+        "table_index": null,
+        "row_index": null,
+        "raw_label": "海外",
+        "raw_value": "475-480%",
+        "evidence_text": "二零二五年第一季度整體收益（未經審核），較二零二四年第一季度同比增長165%-170%，其中中國收益同比增長95%-100%，海外 $ ^{1} $收益同比增長475%-480%。",
+        "extraction_method": "ocr:aistudio",
+        "confidence": 0.95
+      }
+    },
+    {
+      "metric_code": "offline_channel_yoy",
+      "metric_name": "线下渠道收益同比",
+      "lower_value": "85",
+      "upper_value": "90",
+      "unit": "%",
+      "comparison_kind": "yoy_pct",
+      "period_label": "FY2025_Q1",
+      "scope": "线下渠道",
+      "source": {
+        "document_id": "6ffeae42c1fac36c",
+        "file_name": "第一季度报告.pdf",
+        "page": 1,
+        "table_index": null,
+        "row_index": null,
+        "raw_label": "线下渠道",
+        "raw_value": "85-90%",
+        "evidence_text": "(1) 線下渠道同比增長85%-90%；",
+        "extraction_method": "ocr:aistudio",
+        "confidence": 0.95
+      }
+    },
+    {
+      "metric_code": "online_channel_yoy",
+      "metric_name": "线上渠道收益同比",
+      "lower_value": "140",
+      "upper_value": "145",
+      "unit": "%",
+      "comparison_kind": "yoy_pct",
+      "period_label": "FY2025_Q1",
+      "scope": "线上渠道",
+      "source": {
+        "document_id": "6ffeae42c1fac36c",
+        "file_name": "第一季度报告.pdf",
+        "page": 1,
+        "table_index": null,
+        "row_index": null,
+        "raw_label": "线上渠道",
+        "raw_value": "140-145%",
+        "evidence_text": "(2) 線上渠道同比增長140%-145%。",
+        "extraction_method": "ocr:aistudio",
+        "confidence": 0.95
+      }
+    },
+    {
+      "metric_code": "apac_revenue_yoy",
+      "metric_name": "亚太收益同比",
+      "lower_value": "345",
+      "upper_value": "350",
+      "unit": "%",
+      "comparison_kind": "yoy_pct",
+      "period_label": "FY2025_Q1",
+      "scope": "亚太",
+      "source": {
+        "document_id": "6ffeae42c1fac36c",
+        "file_name": "第一季度报告.pdf",
+        "page": 2,
+        "table_index": null,
+        "row_index": null,
+        "raw_label": "亚太",
+        "raw_value": "345-350%",
+        "evidence_text": "(1) 亞太 $ ^{2} $同比增長345%-350%；",
+        "extraction_method": "ocr:aistudio",
+        "confidence": 0.95
+      }
+    },
+    {
+      "metric_code": "americas_revenue_yoy",
+      "metric_name": "美洲收益同比",
+      "lower_value": "895",
+      "upper_value": "900",
+      "unit": "%",
+      "comparison_kind": "yoy_pct",
+      "period_label": "FY2025_Q1",
+      "scope": "美洲",
+      "source": {
+        "document_id": "6ffeae42c1fac36c",
+        "file_name": "第一季度报告.pdf",
+        "page": 2,
+        "table_index": null,
+        "row_index": null,
+        "raw_label": "美洲",
+        "raw_value": "895-900%",
+        "evidence_text": "(2) 美洲同比增長895%-900%；",
+        "extraction_method": "ocr:aistudio",
+        "confidence": 0.95
+      }
+    }
+  ]
+}

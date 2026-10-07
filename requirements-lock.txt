@@ -1,0 +1,6 @@
+pydantic==2.13.5
+pypdf==6.10.0
+pdfplumber==0.11.9
+Pillow==12.3.0
+mcp==2.2.0
+requests==2.32.5

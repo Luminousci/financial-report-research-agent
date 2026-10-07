@@ -1,0 +1,143 @@
+{
+  "profile": "non_financial",
+  "score": "82.00",
+  "grade": "B",
+  "status": "complete",
+  "coverage_ratio": "1.00",
+  "methodology": "非金融企业内部评级：利润现金含量、收入增长、利润增长、资产负债率和非经常性损益影响，共100分。",
+  "components": [
+    {
+      "code": "cash_conversion",
+      "name": "利润现金含量",
+      "score": "25",
+      "max_score": "25",
+      "observed_value": "1.2822倍",
+      "rationale": "经营现金流/归母净利润：≥1得满分，0.8—1得20分，0.5—0.8得10分。",
+      "evidence_refs": [
+        {
+          "calculation": {
+            "code": "cash_conversion",
+            "name": "经营现金流/归母净利润",
+            "value": "1.2822",
+            "unit": "倍",
+            "formula": "经营活动现金流量净额/归母净利润",
+            "inputs": {
+              "operating_cash_flow": "7798541802.42",
+              "net_profit_parent": "6082159344.39"
+            },
+            "period_label": "FY2026_Q1",
+            "status": "ok",
+            "note": null
+          }
+        }
+      ]
+    },
+    {
+      "code": "revenue_growth",
+      "name": "营业收入增长",
+      "score": "15",
+      "max_score": "20",
+      "observed_value": "3.52%",
+      "rationale": "同比≥10%得满分，0—10%得15分，非正增长得5分。",
+      "evidence_refs": [
+        {
+          "document_id": "22195f6590f7e015",
+          "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+          "page": 2,
+          "table_index": 0,
+          "row_index": 1,
+          "raw_label": "营业收入（元）",
+          "raw_value": "3.52%",
+          "evidence_text": "营业收入（元） | 42,966,121,178.08 | 41,506,860,074.79 | 3.52%",
+          "extraction_method": "pdfplumber",
+          "confidence": 0.98
+        }
+      ]
+    },
+    {
+      "code": "net_profit_parent_growth",
+      "name": "归母净利润增长",
+      "score": "15",
+      "max_score": "20",
+      "observed_value": "3.01%",
+      "rationale": "同比≥10%得满分，0—10%得15分，非正增长得5分。",
+      "evidence_refs": [
+        {
+          "document_id": "22195f6590f7e015",
+          "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+          "page": 2,
+          "table_index": 0,
+          "row_index": 2,
+          "raw_label": "归属于上市公司股东的净利\n润（元）",
+          "raw_value": "3.01%",
+          "evidence_text": "归属于上市公司股东的净利\n润（元） | 6,082,159,344.39 | 5,904,459,443.46 | 3.01%",
+          "extraction_method": "pdfplumber",
+          "confidence": 0.98
+        }
+      ]
+    },
+    {
+      "code": "debt_ratio",
+      "name": "资产负债率",
+      "score": "12",
+      "max_score": "20",
+      "observed_value": "59.15%",
+      "rationale": "资产负债率≤50%得满分，50%—70%得12分。行业差异需人工复核。",
+      "evidence_refs": [
+        {
+          "document_id": "22195f6590f7e015",
+          "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+          "page": 2,
+          "table_index": 0,
+          "row_index": 9,
+          "raw_label": "总资产（元）",
+          "raw_value": "381,613,603,247.63",
+          "evidence_text": "总资产（元） | 381,613,603,247.63 | 391,371,999,819.49 | -2.49%",
+          "extraction_method": "pdfplumber",
+          "confidence": 0.98
+        },
+        {
+          "document_id": "22195f6590f7e015",
+          "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+          "page": 6,
+          "table_index": 0,
+          "row_index": 9,
+          "raw_label": "负债合计",
+          "raw_value": "225,739,949,642.51",
+          "evidence_text": "负债合计 | 225,739,949,642.51 | 241,580,719,144.79",
+          "extraction_method": "pdfplumber",
+          "confidence": 0.98
+        }
+      ]
+    },
+    {
+      "code": "nonrecurring_impact",
+      "name": "非经常性损益影响",
+      "score": "15",
+      "max_score": "15",
+      "observed_value": "0.0625",
+      "rationale": "绝对影响比例≤0.1得满分，0.1—0.3得8分。",
+      "evidence_refs": [
+        {
+          "calculation": {
+            "code": "nonrecurring_impact_ratio",
+            "name": "非经常性损益影响比例",
+            "value": "0.0625",
+            "unit": "比例",
+            "formula": "(归母净利润-扣非归母净利润)/ABS(归母净利润)",
+            "inputs": {
+              "net_profit_parent": "6082159344.39",
+              "net_profit_excl_nonrecurring": "5702183701.81"
+            },
+            "period_label": "FY2026_Q1",
+            "status": "ok",
+            "note": null
+          }
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "该评级是可解释的内部筛查意见，不是信用评级或投资建议。"
+  ]
+}

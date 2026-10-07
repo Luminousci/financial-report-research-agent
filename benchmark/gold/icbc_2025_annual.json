@@ -1,0 +1,16 @@
+{
+  "case_id": "icbc_2025_annual",
+  "input_path": "年报/工商银行年报/2025年报.pdf",
+  "tolerance": "0.01",
+  "expected_facts": [
+    {"metric_code": "revenue", "period_label": "FY2025", "comparison_kind": "value", "value": "838270000000"},
+    {"metric_code": "net_interest_income", "period_label": "FY2025", "comparison_kind": "value", "value": "635126000000"},
+    {"metric_code": "net_profit_parent", "period_label": "FY2025", "comparison_kind": "value", "value": "368562000000"},
+    {"metric_code": "operating_cash_flow", "period_label": "FY2025", "comparison_kind": "value", "value": "1890530000000"},
+    {"metric_code": "total_assets", "period_label": "FY2025", "comparison_kind": "value", "value": "53477773000000"},
+    {"metric_code": "nonperforming_loan_ratio", "period_label": "FY2025", "comparison_kind": "value", "value": "1.31"},
+    {"metric_code": "provision_coverage_ratio", "period_label": "FY2025", "comparison_kind": "value", "value": "213.60"},
+    {"metric_code": "capital_adequacy_ratio", "period_label": "FY2025", "comparison_kind": "value", "value": "18.76"}
+  ],
+  "expected_findings": []
+}

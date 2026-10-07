@@ -1,0 +1,142 @@
+{
+  "revenue": {
+    "name": "营业收入",
+    "aliases": ["营业收入", "Revenue"],
+    "kind": "flow"
+  },
+  "operating_revenue_total": {
+    "name": "营业总收入",
+    "aliases": ["营业总收入"],
+    "kind": "flow"
+  },
+  "operating_cost": {
+    "name": "营业成本",
+    "aliases": ["营业成本", "Operating costs", "Cost of sales"],
+    "kind": "flow"
+  },
+  "net_interest_income": {
+    "name": "利息净收入",
+    "aliases": ["利息净收入", "Net interest income"],
+    "kind": "flow"
+  },
+  "fee_commission_net_income": {
+    "name": "手续费及佣金净收入",
+    "aliases": ["手续费及佣金净收入", "Net fee and commission income"],
+    "kind": "flow"
+  },
+  "total_profit": {
+    "name": "利润总额",
+    "aliases": ["利润总额"],
+    "kind": "flow"
+  },
+  "net_profit_parent": {
+    "name": "归属于母公司股东的净利润",
+    "aliases": ["归属于上市公司股东的净利润", "归属于母公司股东的净利润", "归属母公司股东的净利润", "Profit attributable to owners of the Company", "Profit attributable to equity holders of the Company"],
+    "kind": "flow"
+  },
+  "net_profit_excl_nonrecurring": {
+    "name": "扣除非经常性损益后的归母净利润",
+    "aliases": ["归属于上市公司股东的扣除非经常性损益的净利润", "扣除非经常性损益后归属于母公司股东的净利润", "扣除非经常性损益后的归母净利润"],
+    "kind": "flow"
+  },
+  "operating_cash_flow": {
+    "name": "经营活动产生的现金流量净额",
+    "aliases": ["经营活动产生的现金流量净额", "经营活动产生的现金流", "Net cash generated from operating activities", "Net cash flows from operating activities"],
+    "kind": "flow"
+  },
+  "basic_eps": {
+    "name": "基本每股收益",
+    "aliases": ["基本每股收益"],
+    "kind": "ratio"
+  },
+  "diluted_eps": {
+    "name": "稀释每股收益",
+    "aliases": ["稀释每股收益"],
+    "kind": "ratio"
+  },
+  "weighted_roe": {
+    "name": "加权平均净资产收益率",
+    "aliases": ["加权平均净资产收益率"],
+    "kind": "ratio"
+  },
+  "total_assets": {
+    "name": "总资产",
+    "aliases": ["总资产", "资产总额", "Total assets"],
+    "kind": "stock"
+  },
+  "current_assets": {
+    "name": "流动资产合计",
+    "aliases": ["流动资产合计", "Total current assets"],
+    "kind": "stock"
+  },
+  "total_liabilities": {
+    "name": "总负债",
+    "aliases": ["负债合计", "负债总额", "总负债", "Total liabilities"],
+    "kind": "stock"
+  },
+  "current_liabilities": {
+    "name": "流动负债合计",
+    "aliases": ["流动负债合计", "Total current liabilities"],
+    "kind": "stock"
+  },
+  "equity_parent": {
+    "name": "归属于母公司股东的权益",
+    "aliases": ["归属于上市公司股东的所有者权益", "归属于母公司股东的权益", "归属于母公司所有者权益"],
+    "kind": "stock"
+  },
+  "total_equity": {
+    "name": "所有者权益合计",
+    "aliases": ["所有者权益合计", "所有者权益（或股东权益）合计", "股东权益合计", "权益合计"],
+    "kind": "stock"
+  },
+  "accounts_receivable": {
+    "name": "应收账款",
+    "aliases": ["应收账款"],
+    "kind": "stock"
+  },
+  "accounts_payable": {
+    "name": "应付账款",
+    "aliases": ["应付账款", "Trade payables"],
+    "kind": "stock"
+  },
+  "prepayments": {
+    "name": "预付款项",
+    "aliases": ["预付款项", "Prepayments"],
+    "kind": "stock"
+  },
+  "contract_liabilities": {
+    "name": "合同负债",
+    "aliases": ["合同负债", "Contract liabilities"],
+    "kind": "stock"
+  },
+  "cash_and_equivalents": {
+    "name": "货币资金",
+    "aliases": ["货币资金", "Cash and cash equivalents"],
+    "kind": "stock"
+  },
+  "inventory": {
+    "name": "存货",
+    "aliases": ["存货", "Inventories"],
+    "kind": "stock"
+  },
+  "net_interest_margin": {
+    "name": "净利息收益率",
+    "aliases": ["净利息收益率", "Net interest margin"],
+    "kind": "ratio"
+  },
+  "nonperforming_loan_ratio": {
+    "name": "不良贷款率",
+    "aliases": ["不良贷款率", "Non-performing loan ratio"],
+    "kind": "ratio"
+  },
+  "provision_coverage_ratio": {
+    "name": "拨备覆盖率",
+    "aliases": ["拨备覆盖率", "Allowance to non-performing loans"],
+    "kind": "ratio"
+  },
+  "capital_adequacy_ratio": {
+    "name": "资本充足率",
+    "aliases": ["资本充足率", "Capital adequacy ratio"],
+    "kind": "ratio"
+  }
+}

@@ -1,0 +1,537 @@
+[
+  {
+    "code": "revenue_yoy_recomputed",
+    "name": "营业收入同比（程序复算）",
+    "value": "3.52",
+    "unit": "%",
+    "formula": "(本期值-上年同期值)/ABS(上年同期值)*100",
+    "inputs": {
+      "current": "42966121178.08",
+      "prior": "41506860074.79"
+    },
+    "period_label": "FY2026_Q1",
+    "status": "ok",
+    "note": null
+  },
+  {
+    "code": "net_profit_parent_yoy_recomputed",
+    "name": "归属于母公司股东的净利润同比（程序复算）",
+    "value": "3.01",
+    "unit": "%",
+    "formula": "(本期值-上年同期值)/ABS(上年同期值)*100",
+    "inputs": {
+      "current": "6082159344.39",
+      "prior": "5904459443.46"
+    },
+    "period_label": "FY2026_Q1",
+    "status": "ok",
+    "note": null
+  },
+  {
+    "code": "net_profit_excl_nonrecurring_yoy_recomputed",
+    "name": "扣除非经常性损益后的归母净利润同比（程序复算）",
+    "value": "-0.27",
+    "unit": "%",
+    "formula": "(本期值-上年同期值)/ABS(上年同期值)*100",
+    "inputs": {
+      "current": "5702183701.81",
+      "prior": "5717342878.89"
+    },
+    "period_label": "FY2026_Q1",
+    "status": "ok",
+    "note": null
+  },
+  {
+    "code": "operating_cash_flow_yoy_recomputed",
+    "name": "经营活动产生的现金流量净额同比（程序复算）",
+    "value": "-29.11",
+    "unit": "%",
+    "formula": "(本期值-上年同期值)/ABS(上年同期值)*100",
+    "inputs": {
+      "current": "7798541802.42",
+      "prior": "11001218583.01"
+    },
+    "period_label": "FY2026_Q1",
+    "status": "ok",
+    "note": null
+  },
+  {
+    "code": "basic_eps_yoy_recomputed",
+    "name": "基本每股收益同比（程序复算）",
+    "value": "1.87",
+    "unit": "%",
+    "formula": "(本期值-上年同期值)/ABS(上年同期值)*100",
+    "inputs": {
+      "current": "1.09",
+      "prior": "1.07"
+    },
+    "period_label": "FY2026_Q1",
+    "status": "ok",
+    "note": null
+  },
+  {
+    "code": "diluted_eps_yoy_recomputed",
+    "name": "稀释每股收益同比（程序复算）",
+    "value": "1.87",
+    "unit": "%",
+    "formula": "(本期值-上年同期值)/ABS(上年同期值)*100",
+    "inputs": {
+      "current": "1.09",
+      "prior": "1.07"
+    },
+    "period_label": "FY2026_Q1",
+    "status": "ok",
+    "note": null
+  },
+  {
+    "code": "equity_parent_yoy_recomputed",
+    "name": "归属于母公司股东的权益同比（程序复算）",
+    "value": "4.18",
+    "unit": "%",
+    "formula": "(本期值-上年同期值)/ABS(上年同期值)*100",
+    "inputs": {
+      "current": "152024259599.56",
+      "prior": "145929297804.02"
+    },
+    "period_label": "FY2026_Q1",
+    "status": "ok",
+    "note": null
+  },
+  {
+    "code": "cash_and_equivalents_yoy_recomputed",
+    "name": "货币资金同比（程序复算）",
+    "value": "13.94",
+    "unit": "%",
+    "formula": "(本期值-上年同期值)/ABS(上年同期值)*100",
+    "inputs": {
+      "current": "125969161545.86",
+      "prior": "110553006650.89"
+    },
+    "period_label": "FY2026_Q1",
+    "status": "ok",
+    "note": null
+  },
+  {
+    "code": "accounts_receivable_yoy_recomputed",
+    "name": "应收账款同比（程序复算）",
+    "value": "11.06",
+    "unit": "%",
+    "formula": "(本期值-上年同期值)/ABS(上年同期值)*100",
+    "inputs": {
+      "current": "17756039770.46",
+      "prior": "15987180598.76"
+    },
+    "period_label": "FY2026_Q1",
+    "status": "ok",
+    "note": null
+  },
+  {
+    "code": "prepayments_yoy_recomputed",
+    "name": "预付款项同比（程序复算）",
+    "value": "16.72",
+    "unit": "%",
+    "formula": "(本期值-上年同期值)/ABS(上年同期值)*100",
+    "inputs": {
+      "current": "1413728487.80",
+      "prior": "1211213034.38"
+    },
+    "period_label": "FY2026_Q1",
+    "status": "ok",
+    "note": null
+  },
+  {
+    "code": "inventory_yoy_recomputed",
+    "name": "存货同比（程序复算）",
+    "value": "-8.84",
+    "unit": "%",
+    "formula": "(本期值-上年同期值)/ABS(上年同期值)*100",
+    "inputs": {
+      "current": "25692817342.96",
+      "prior": "28183464259.53"
+    },
+    "period_label": "FY2026_Q1",
+    "status": "ok",
+    "note": null
+  },
+  {
+    "code": "current_assets_yoy_recomputed",
+    "name": "流动资产合计同比（程序复算）",
+    "value": "-3.38",
+    "unit": "%",
+    "formula": "(本期值-上年同期值)/ABS(上年同期值)*100",
+    "inputs": {
+      "current": "242450602285.25",
+      "prior": "250943551897.43"
+    },
+    "period_label": "FY2026_Q1",
+    "status": "ok",
+    "note": null
+  },
+  {
+    "code": "accounts_payable_yoy_recomputed",
+    "name": "应付账款同比（程序复算）",
+    "value": "4.44",
+    "unit": "%",
+    "formula": "(本期值-上年同期值)/ABS(上年同期值)*100",
+    "inputs": {
+      "current": "43973231538.84",
+      "prior": "42103940920.24"
+    },
+    "period_label": "FY2026_Q1",
+    "status": "ok",
+    "note": null
+  },
+  {
+    "code": "contract_liabilities_yoy_recomputed",
+    "name": "合同负债同比（程序复算）",
+    "value": "-18.88",
+    "unit": "%",
+    "formula": "(本期值-上年同期值)/ABS(上年同期值)*100",
+    "inputs": {
+      "current": "12335349636.15",
+      "prior": "15206576385.44"
+    },
+    "period_label": "FY2026_Q1",
+    "status": "ok",
+    "note": null
+  },
+  {
+    "code": "current_liabilities_yoy_recomputed",
+    "name": "流动负债合计同比（程序复算）",
+    "value": "-6.34",
+    "unit": "%",
+    "formula": "(本期值-上年同期值)/ABS(上年同期值)*100",
+    "inputs": {
+      "current": "216887259395.01",
+      "prior": "231569831196.26"
+    },
+    "period_label": "FY2026_Q1",
+    "status": "ok",
+    "note": null
+  },
+  {
+    "code": "operating_revenue_total_yoy_recomputed",
+    "name": "营业总收入同比（程序复算）",
+    "value": "3.46",
+    "unit": "%",
+    "formula": "(本期值-上年同期值)/ABS(上年同期值)*100",
+    "inputs": {
+      "current": "43080395805.39",
+      "prior": "41639050426.79"
+    },
+    "period_label": "FY2026_Q1",
+    "status": "ok",
+    "note": null
+  },
+  {
+    "code": "operating_cost_yoy_recomputed",
+    "name": "营业成本同比（程序复算）",
+    "value": "3.44",
+    "unit": "%",
+    "formula": "(本期值-上年同期值)/ABS(上年同期值)*100",
+    "inputs": {
+      "current": "31186623197.08",
+      "prior": "30150364481.08"
+    },
+    "period_label": "FY2026_Q1",
+    "status": "ok",
+    "note": null
+  },
+  {
+    "code": "total_profit_yoy_recomputed",
+    "name": "利润总额同比（程序复算）",
+    "value": "0.89",
+    "unit": "%",
+    "formula": "(本期值-上年同期值)/ABS(上年同期值)*100",
+    "inputs": {
+      "current": "6971863518.37",
+      "prior": "6910237979.83"
+    },
+    "period_label": "FY2026_Q1",
+    "status": "ok",
+    "note": null
+  },
+  {
+    "code": "total_assets_yoy_recomputed",
+    "name": "总资产同比（程序复算）",
+    "value": "-2.49",
+    "unit": "%",
+    "formula": "(本期值-上年同期值)/ABS(上年同期值)*100",
+    "inputs": {
+      "current": "381613603247.63",
+      "prior": "391371999819.49"
+    },
+    "period_label": "FY2026_Q1",
+    "status": "ok",
+    "note": null
+  },
+  {
+    "code": "total_liabilities_yoy_recomputed",
+    "name": "总负债同比（程序复算）",
+    "value": "-6.56",
+    "unit": "%",
+    "formula": "(本期值-上年同期值)/ABS(上年同期值)*100",
+    "inputs": {
+      "current": "225739949642.51",
+      "prior": "241580719144.79"
+    },
+    "period_label": "FY2026_Q1",
+    "status": "ok",
+    "note": null
+  },
+  {
+    "code": "total_equity_yoy_recomputed",
+    "name": "所有者权益合计同比（程序复算）",
+    "value": "4.06",
+    "unit": "%",
+    "formula": "(本期值-上年同期值)/ABS(上年同期值)*100",
+    "inputs": {
+      "current": "155873653605.12",
+      "prior": "149791280674.70"
+    },
+    "period_label": "FY2026_Q1",
+    "status": "ok",
+    "note": null
+  },
+  {
+    "code": "accounts_receivable_change",
+    "name": "应收账款变动",
+    "value": "1768859171.70",
+    "unit": "CNY",
+    "formula": "期末值-期初值",
+    "inputs": {
+      "current": "17756039770.46",
+      "prior": "15987180598.76"
+    },
+    "period_label": "FY2026_Q1",
+    "status": "ok",
+    "note": null
+  },
+  {
+    "code": "prepayments_change",
+    "name": "预付款项变动",
+    "value": "202515453.42",
+    "unit": "CNY",
+    "formula": "期末值-期初值",
+    "inputs": {
+      "current": "1413728487.80",
+      "prior": "1211213034.38"
+    },
+    "period_label": "FY2026_Q1",
+    "status": "ok",
+    "note": null
+  },
+  {
+    "code": "inventory_change",
+    "name": "存货变动",
+    "value": "-2490646916.57",
+    "unit": "CNY",
+    "formula": "期末值-期初值",
+    "inputs": {
+      "current": "25692817342.96",
+      "prior": "28183464259.53"
+    },
+    "period_label": "FY2026_Q1",
+    "status": "ok",
+    "note": null
+  },
+  {
+    "code": "accounts_payable_change",
+    "name": "应付账款变动",
+    "value": "1869290618.60",
+    "unit": "CNY",
+    "formula": "期末值-期初值",
+    "inputs": {
+      "current": "43973231538.84",
+      "prior": "42103940920.24"
+    },
+    "period_label": "FY2026_Q1",
+    "status": "ok",
+    "note": null
+  },
+  {
+    "code": "contract_liabilities_change",
+    "name": "合同负债变动",
+    "value": "-2871226749.29",
+    "unit": "CNY",
+    "formula": "期末值-期初值",
+    "inputs": {
+      "current": "12335349636.15",
+      "prior": "15206576385.44"
+    },
+    "period_label": "FY2026_Q1",
+    "status": "ok",
+    "note": null
+  },
+  {
+    "code": "gross_margin",
+    "name": "毛利率",
+    "value": "27.42",
+    "unit": "%",
+    "formula": "(营业收入-营业成本)/营业收入*100",
+    "inputs": {
+      "revenue": "42966121178.08",
+      "operating_cost": "31186623197.08"
+    },
+    "period_label": "FY2026_Q1",
+    "status": "ok",
+    "note": null
+  },
+  {
+    "code": "gross_margin_prior",
+    "name": "毛利率（上期）",
+    "value": "27.36",
+    "unit": "%",
+    "formula": "(营业收入-营业成本)/营业收入*100",
+    "inputs": {
+      "revenue": "41506860074.79",
+      "operating_cost": "30150364481.08"
+    },
+    "period_label": "FY2026_Q1",
+    "status": "ok",
+    "note": null
+  },
+  {
+    "code": "net_margin",
+    "name": "净利率",
+    "value": "14.16",
+    "unit": "%",
+    "formula": "归母净利润/营业收入*100",
+    "inputs": {
+      "net_profit_parent": "6082159344.39",
+      "revenue": "42966121178.08"
+    },
+    "period_label": "FY2026_Q1",
+    "status": "ok",
+    "note": null
+  },
+  {
+    "code": "net_margin_prior",
+    "name": "净利率（上期）",
+    "value": "14.23",
+    "unit": "%",
+    "formula": "归母净利润/营业收入*100",
+    "inputs": {
+      "net_profit_parent": "5904459443.46",
+      "revenue": "41506860074.79"
+    },
+    "period_label": "FY2026_Q1",
+    "status": "ok",
+    "note": null
+  },
+  {
+    "code": "debt_ratio",
+    "name": "资产负债率",
+    "value": "59.15",
+    "unit": "%",
+    "formula": "总负债/总资产*100",
+    "inputs": {
+      "total_liabilities": "225739949642.51",
+      "total_assets": "381613603247.63"
+    },
+    "period_label": "FY2026_Q1",
+    "status": "ok",
+    "note": null
+  },
+  {
+    "code": "debt_ratio_prior",
+    "name": "资产负债率（上期）",
+    "value": "61.73",
+    "unit": "%",
+    "formula": "总负债/总资产*100",
+    "inputs": {
+      "total_liabilities": "241580719144.79",
+      "total_assets": "391371999819.49"
+    },
+    "period_label": "FY2026_Q1",
+    "status": "ok",
+    "note": null
+  },
+  {
+    "code": "current_ratio",
+    "name": "流动比率",
+    "value": "1.12",
+    "unit": "倍",
+    "formula": "流动资产/流动负债",
+    "inputs": {
+      "current_assets": "242450602285.25",
+      "current_liabilities": "216887259395.01"
+    },
+    "period_label": "FY2026_Q1",
+    "status": "ok",
+    "note": null
+  },
+  {
+    "code": "current_ratio_prior",
+    "name": "流动比率（上期）",
+    "value": "1.08",
+    "unit": "倍",
+    "formula": "流动资产/流动负债",
+    "inputs": {
+      "current_assets": "250943551897.43",
+      "current_liabilities": "231569831196.26"
+    },
+    "period_label": "FY2026_Q1",
+    "status": "ok",
+    "note": null
+  },
+  {
+    "code": "cash_conversion",
+    "name": "经营现金流/归母净利润",
+    "value": "1.2822",
+    "unit": "倍",
+    "formula": "经营活动现金流量净额/归母净利润",
+    "inputs": {
+      "operating_cash_flow": "7798541802.42",
+      "net_profit_parent": "6082159344.39"
+    },
+    "period_label": "FY2026_Q1",
+    "status": "ok",
+    "note": null
+  },
+  {
+    "code": "nonrecurring_impact_ratio",
+    "name": "非经常性损益影响比例",
+    "value": "0.0625",
+    "unit": "比例",
+    "formula": "(归母净利润-扣非归母净利润)/ABS(归母净利润)",
+    "inputs": {
+      "net_profit_parent": "6082159344.39",
+      "net_profit_excl_nonrecurring": "5702183701.81"
+    },
+    "period_label": "FY2026_Q1",
+    "status": "ok",
+    "note": null
+  },
+  {
+    "code": "working_capital_investment_change",
+    "name": "营运资金占用变动（代理口径）",
+    "value": "482663839.24",
+    "unit": "CNY",
+    "formula": "Δ应收账款+Δ存货+Δ预付款项-Δ应付账款-Δ合同负债（仅计入可得项目）",
+    "inputs": {
+      "accounts_receivable": "1768859171.70",
+      "inventory": "-2490646916.57",
+      "prepayments": "202515453.42",
+      "accounts_payable": "1869290618.60",
+      "contract_liabilities": "-2871226749.29"
+    },
+    "period_label": "FY2026_Q1",
+    "status": "ok",
+    "note": "正值表示营运资金占用增加、对现金流形成压力；该口径不等同于现金流量表披露的全部营运资金变动。"
+  },
+  {
+    "code": "profit_cash_growth_gap",
+    "name": "利润与经营现金流增速差",
+    "value": "32.12",
+    "unit": "百分点",
+    "formula": "归母净利润同比-经营活动现金流量净额同比",
+    "inputs": {
+      "profit_growth": "3.01",
+      "cash_growth": "-29.11"
+    },
+    "period_label": "FY2026_Q1",
+    "status": "ok",
+    "note": null
+  }
+]

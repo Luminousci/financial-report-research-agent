@@ -1,0 +1,6 @@
+请根据以下财报资料形成财报或经营快报分析。不要重复全部原始数据，重点解释业绩变化、异常信号、证据边界和后续跟踪指标。business_metrics 中的上下限是公司披露的区间，必须完整保留。健康度评分须解释其规则覆盖率和局限，不得改写成投资评级。
+
+输出字段：summary、performance、risks、counter_evidence、tracking_metrics、limitations。每条结论包含claim、classification、evidence_refs。
+
+资料：
+{{PAYLOAD}}

@@ -1,0 +1,21 @@
+{
+  "case_id": "moutai_2025_q3",
+  "input_path": "年报/贵州茅台年报/第三季度报告.pdf",
+  "tolerance": "0.01",
+  "expected_facts": [
+    {"metric_code": "revenue", "period_label": "FY2025_Q3_single", "comparison_kind": "value", "value": "39064353239.02"},
+    {"metric_code": "revenue", "period_label": "FY2025_Q3_single", "comparison_kind": "reported_yoy_pct", "value": "0.56"},
+    {"metric_code": "revenue", "period_label": "FY2025_YTD_Q3", "comparison_kind": "value", "value": "128453707655.86"},
+    {"metric_code": "revenue", "period_label": "FY2025_YTD_Q3", "comparison_kind": "reported_yoy_pct", "value": "6.36"},
+    {"metric_code": "net_profit_parent", "period_label": "FY2025_Q3_single", "comparison_kind": "value", "value": "19223784414.08"},
+    {"metric_code": "net_profit_parent", "period_label": "FY2025_YTD_Q3", "comparison_kind": "value", "value": "64626746712.18"},
+    {"metric_code": "net_profit_parent", "period_label": "FY2025_YTD_Q3", "comparison_kind": "reported_yoy_pct", "value": "6.25"},
+    {"metric_code": "net_profit_excl_nonrecurring", "period_label": "FY2025_YTD_Q3", "comparison_kind": "value", "value": "64680616431.20"},
+    {"metric_code": "operating_cash_flow", "period_label": "FY2025_YTD_Q3", "comparison_kind": "value", "value": "38196802155.27"},
+    {"metric_code": "operating_cash_flow", "period_label": "FY2025_YTD_Q3", "comparison_kind": "reported_yoy_pct", "value": "-14.01"},
+    {"metric_code": "total_assets", "period_label": "FY2025_YTD_Q3", "comparison_kind": "value", "value": "304738184929.86"},
+    {"metric_code": "equity_parent", "period_label": "FY2025_YTD_Q3", "comparison_kind": "value", "value": "257069964386.23"}
+  ],
+  "expected_findings": ["cash_profit_growth_divergence"]
+}
+

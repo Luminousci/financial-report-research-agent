@@ -1,0 +1,37 @@
+[
+  {
+    "rule_id": "cash_profit_growth_divergence",
+    "title": "利润增长与经营现金流下降",
+    "severity": "high",
+    "classification": "calculation",
+    "description": "FY2026_Q1归母净利润同比3.01%而经营活动现金流量净额同比-29.11%，方向背离32.12个百分点。",
+    "evidence_refs": [
+      {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 2,
+        "table_index": 0,
+        "row_index": 2,
+        "raw_label": "归属于上市公司股东的净利\n润（元）",
+        "raw_value": "3.01%",
+        "evidence_text": "归属于上市公司股东的净利\n润（元） | 6,082,159,344.39 | 5,904,459,443.46 | 3.01%",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      },
+      {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 2,
+        "table_index": 0,
+        "row_index": 4,
+        "raw_label": "经营活动产生的现金流量净\n额（元）",
+        "raw_value": "-29.11%",
+        "evidence_text": "经营活动产生的现金流量净\n额（元） | 7,798,541,802.42 | 11,001,218,583.01 | -29.11%",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    ],
+    "counter_evidence": "需结合预收款、应收项目、存货、税费及季节性进一步核验。",
+    "applicable_scope": "non_financial"
+  }
+]

@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#071718">
+<title>金融投研智能体 本地运行入口</title>
+<style>
+:root{--bg:#071718;--panel:rgba(10,31,29,.74);--ink:#f8f6eb;--muted:#a8b8b1;--line:rgba(255,255,255,.18);--accent:#f3ffc9;--mint:#91cfb5;--orange:#f19a68}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;min-height:100vh;background:var(--bg);color:var(--ink);font:15px/1.7 "Segoe UI","Microsoft YaHei",sans-serif}
+body::before{content:"";position:fixed;inset:0;z-index:-2;background:linear-gradient(90deg,rgba(4,18,17,.97),rgba(5,24,24,.77)),url('agent_assets/ui/market-analysis-background.jpg') center/cover}
+body::after{content:"";position:fixed;inset:0;z-index:-1;opacity:.08;background-image:repeating-radial-gradient(circle at 0 0,#fff 0 1px,transparent 1px 5px);background-size:9px 9px}
+a{color:inherit;text-decoration:none}.shell{width:min(1180px,calc(100% - 40px));margin:auto}.topbar{display:flex;align-items:center;justify-content:space-between;min-height:76px;border-bottom:1px solid var(--line)}
+.brand{display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:.08em}.mark{display:grid;place-items:center;width:38px;height:38px;border-radius:50%;background:var(--ink);color:#17302d;font:19px Georgia,serif}.tag{color:var(--mint);font-size:11px;letter-spacing:.15em}
+.hero{padding:70px 0 48px}.eyebrow{margin:0 0 17px;color:var(--mint);font-size:11px;font-weight:800;letter-spacing:.2em;text-transform:uppercase}.hero .intro{max-width:780px;margin:0;color:#eef4f1;font:600 clamp(25px,3.2vw,42px)/1.35 Georgia,"Songti SC","SimSun",serif}.api-note{max-width:880px;margin:24px 0 0;padding:14px 18px;border-left:3px solid var(--orange);background:rgba(241,154,104,.1);color:#ffe2d1}.api-note strong{color:var(--orange)}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}.button{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:0 19px;border:1px solid rgba(255,255,255,.45);border-radius:999px;font-weight:800;cursor:pointer}.button.primary{border-color:var(--accent);background:var(--accent);color:#12211f}.button:hover{transform:translateY(-1px)}
+.service-message{max-width:820px;margin-top:14px;padding:16px 18px;border:1px solid rgba(241,154,104,.6);background:#251912;color:#ffe2d1}.service-message strong{display:block;margin-bottom:4px;color:var(--orange)}.service-message code{color:var(--accent)}.service-message[hidden]{display:none}
+.section{padding:34px 0;border-top:1px solid var(--line)}.section-head{display:flex;justify-content:space-between;gap:24px;align-items:end;margin-bottom:22px}.section h2{margin:0;font:600 30px/1.15 Georgia,"Songti SC","SimSun",serif}.section-head p{margin:0;color:var(--muted)}
+.run-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:20px}.run-card,.notice{padding:26px;border:1px solid var(--line);background:var(--panel)}.run-card h3,.notice h3{margin:0 0 8px;font-size:18px}.run-card p,.notice p{margin:0;color:var(--muted)}
+.code{position:relative;margin:18px 0 0;padding:18px 64px 18px 18px;overflow:auto;background:#04100f;border-left:3px solid var(--mint);color:#eaf2ee;font:13px/1.75 Consolas,"Microsoft YaHei",monospace;white-space:pre-wrap}.copy{position:absolute;top:10px;right:10px;padding:6px 9px;border:1px solid #58716a;background:transparent;color:#dce7e2;cursor:pointer}
+.module-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.module{min-height:155px;padding:20px;border-top:1px solid var(--line);background:linear-gradient(180deg,rgba(255,255,255,.035),transparent)}.module small{color:var(--orange);font-weight:800;letter-spacing:.13em}.module h3{margin:7px 0;font-size:18px}.module p{margin:0;color:var(--muted);font-size:13px}.module code{color:var(--accent)}
+.files{display:grid;grid-template-columns:repeat(2,1fr);border-top:1px solid var(--line)}.file{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:14px 12px;border-bottom:1px solid var(--line)}.file:nth-child(odd){border-right:1px solid var(--line)}.file span{color:var(--muted);font-size:12px}.file strong{font-size:13px}.file:hover strong{color:var(--accent)}
+.warning{color:#ffd1ae}.footer{display:flex;justify-content:space-between;gap:20px;padding:28px 0 46px;border-top:1px solid var(--line);color:var(--muted);font-size:11px}
+.quick-start{display:flex;align-items:center;justify-content:space-between;gap:28px;margin-top:28px;padding:22px 0;border-top:1px solid var(--line)}.quick-start h2{margin:0 0 4px;font-size:18px}.quick-start p{margin:0;color:var(--muted);font-size:13px}.quick-start code{color:var(--accent)}
+@media(max-width:850px){.run-grid,.module-grid{grid-template-columns:1fr}.files{grid-template-columns:1fr}.file:nth-child(odd){border-right:0}.section-head{display:block}.section-head p{margin-top:8px}}@media(max-width:560px){.shell{width:min(100% - 24px,1180px)}.topbar .tag{display:none}.hero{padding-top:48px}}
+</style>
+</head>
+<body>
+<header class="shell topbar"><div class="brand"><span class="mark">研</span><span>金融投研智能体</span></div><span class="tag">LOCAL REPRODUCTION PORTAL</span></header>
+<main class="shell">
+  <section class="hero">
+    <p class="eyebrow">Financial research agent / submission</p>
+    <p class="intro">本地运行、配置说明与复现材料</p>
+    <p class="api-note"><strong>重要：</strong>如不配置并调用 DeepSeek API，系统只能完成确定性解析、财务计算、规则校验和基础结果展示，无法生成包含原因归纳、异常研判与综合结论的详细财报分析报告。</p>
+    <div class="actions"><a class="button primary" id="local-console-link" href="http://127.0.0.1:8000/">检测并打开本地分析台</a><a class="button" href="docs/金融投研智能体运行说明.docx">打开 Word 运行说明</a><a class="button" href="sample_outputs/visual_financial_report_preview.pdf">查看研报示例</a></div>
+    <div class="service-message" id="service-message" hidden role="status" aria-live="polite"><strong>分析服务尚未启动</strong>请回到当前文件夹，双击 <code>启动本地分析台.cmd</code>。看到服务启动信息后保持 CMD 窗口开启，再点击上方按钮重新检测。</div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><h2>核心模块</h2><p>点击下方文件路径可查看相应实现或说明。</p></div>
+    <div class="module-grid">
+      <a class="module" href="src/fin_agent/pipeline.py"><small>01 / ORCHESTRATION</small><h3>智能体编排框架</h3><p><code>pipeline.py</code> 固定任务流程；<code>deepseek.py</code> 编排专项、评级和报告编辑 Agent。</p></a>
+      <a class="module" href="src/fin_agent/ocr.py"><small>02 / TOOL</small><h3>受控工具层</h3><p>PDF解析、OCR、提取、检索、计算、校验、异常识别和报告生成。</p></a>
+      <a class="module" href="agent_assets/prompts/"><small>03 / PROMPT</small><h3>Prompt 资产</h3><p>系统、专项分析、评级、报告编辑、编排与证据问答 Prompt。</p></a>
+      <a class="module" href="agent_assets/skills/financial_report_analysis/SKILL.md"><small>04 / SKILL</small><h3>财报分析 Skill</h3><p>定义执行顺序、模型边界、失败处理、两页报告和审计要求。</p></a>
+      <a class="module" href="docs/MCP_INTEGRATION.md"><small>05 / MCP</small><h3>stdio MCP 服务</h3><p>提供状态、财报列表、受控分析和白名单产物读取工具。</p></a>
+      <a class="module" href="src/fin_agent/audit.py"><small>06 / AUDIT</small><h3>数据与日志</h3><p>结构化事实、公式输入、来源页码、manifest、JSONL事件和模型调用哈希。</p></a>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><h2>配置与说明文件</h2><p>所有链接均指向当前提交目录中的本地文件。</p></div>
+    <div class="files">
+      <a class="file" href="SUBMISSION_CONTENTS.md"><div><strong>提交内容与模块映射</strong><br><span>SUBMISSION_CONTENTS.md</span></div><b>↗</b></a>
+      <a class="file" href="README.md"><div><strong>项目说明与命令</strong><br><span>README.md</span></div><b>↗</b></a>
+      <a class="file" href=".env.example"><div><strong>API 配置模板</strong><br><span>.env.example</span></div><b>↗</b></a>
+      <a class="file" href="requirements-lock.txt"><div><strong>锁定依赖版本</strong><br><span>requirements-lock.txt</span></div><b>↗</b></a>
+      <a class="file" href="THIRD_PARTY.md"><div><strong>第三方成果披露</strong><br><span>THIRD_PARTY.md</span></div><b>↗</b></a>
+      <a class="file" href="docs/ARCHITECTURE.md"><div><strong>系统架构</strong><br><span>docs/ARCHITECTURE.md</span></div><b>↗</b></a>
+      <a class="file" href="docs/DATA_SCHEMA.md"><div><strong>数据与证据结构</strong><br><span>docs/DATA_SCHEMA.md</span></div><b>↗</b></a>
+      <a class="file" href="docs/EVALUATION.md"><div><strong>评测方法</strong><br><span>docs/EVALUATION.md</span></div><b>↗</b></a>
+      <a class="file" href="docs/OCR_INTEGRATION.md"><div><strong>OCR 接入说明</strong><br><span>docs/OCR_INTEGRATION.md</span></div><b>↗</b></a>
+      <a class="file" href="docs/TRACEABILITY_MATRIX.md"><div><strong>需求追溯矩阵</strong><br><span>docs/TRACEABILITY_MATRIX.md</span></div><b>↗</b></a>
+      <a class="file" href="财报数据/README.md"><div><strong>财报放置与命名规范</strong><br><span>财报数据/README.md</span></div><b>↗</b></a>
+    </div>
+  </section>
+
+  <section class="section"><div class="notice"><h3>浏览器能力边界</h3><p>点击“打开本地分析台”会直接进入已经运行的分析服务，不再通过跨源请求预先检测。普通 HTML 受浏览器安全限制，不能直接执行本机 CMD；如果分析服务尚未运行，请先双击根目录的“启动本地分析台.cmd”。进入分析台后，系统会先让用户在“示例研报”和“本地研报”之间选择，再显示对应内容。</p></div></section>
+  <section class="quick-start" aria-label="本地启动说明"><div><h2>本地启动</h2><p>双击根目录的 <code>启动本地分析台.cmd</code>，等待浏览器自动打开；首次运行会创建环境并安装依赖，使用期间请保持 CMD 窗口开启。</p></div><a class="button" href="启动本地分析台.cmd">定位 CMD</a></section>
+</main>
+<footer class="shell footer"><span>FINANCIAL RESEARCH AGENT · LOCAL PORTAL</span><span>不包含真实密钥与第三方模型权重</span></footer>
+<script>
+const localConsoleLink=document.getElementById('local-console-link');
+const serviceMessage=document.getElementById('service-message');
+localConsoleLink.addEventListener('click',async event=>{
+  event.preventDefault();
+  const controller=new AbortController();
+  const timeout=setTimeout(()=>controller.abort(),2500);
+  localConsoleLink.textContent='正在检测本地服务…';
+  serviceMessage.hidden=true;
+  try{
+    const response=await fetch('http://127.0.0.1:8000/health?source=local-portal',{
+      mode:'cors',credentials:'omit',cache:'no-store',signal:controller.signal
+    });
+    if(!response.ok)throw new Error(`HTTP ${response.status}`);
+    const payload=await response.json();
+    if(payload.status!=='ok')throw new Error('service not ready');
+    window.location.assign('http://127.0.0.1:8000/');
+  }catch(error){
+    serviceMessage.hidden=false;
+    localConsoleLink.textContent='服务未启动 · 重新检测';
+    serviceMessage.scrollIntoView({behavior:'smooth',block:'nearest'});
+  }finally{clearTimeout(timeout)}
+});
+</script>
+</body>
+</html>

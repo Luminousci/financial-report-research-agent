@@ -1,0 +1,13 @@
+{
+  "case_id": "popmart_2025_annual",
+  "input_path": "年报/泡泡玛特年报/2025年报.pdf",
+  "tolerance": "0.01",
+  "expected_facts": [
+    {"metric_code": "revenue", "period_label": "FY2025", "comparison_kind": "value", "value": "37120052000"},
+    {"metric_code": "net_profit_parent", "period_label": "FY2025", "comparison_kind": "value", "value": "12775689000"},
+    {"metric_code": "operating_cash_flow", "period_label": "FY2025", "comparison_kind": "value", "value": "10865152000"},
+    {"metric_code": "total_assets", "period_label": "FY2025", "comparison_kind": "value", "value": "32101354000"},
+    {"metric_code": "total_liabilities", "period_label": "FY2025", "comparison_kind": "value", "value": "9448987000"}
+  ],
+  "expected_findings": []
+}

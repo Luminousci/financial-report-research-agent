@@ -1,0 +1,194 @@
+{
+  "provider": "deepseek",
+  "status": "passed",
+  "requested_model": "deepseek-flash",
+  "prompt_version": "financial-multi-agent-v5",
+  "orchestration": "5-specialists-parallel -> rating -> report-editor",
+  "call_count": 7,
+  "passed_count": 7,
+  "failed_count": 0,
+  "calls": [
+    {
+      "agent_id": "accounting",
+      "provider": "deepseek",
+      "requested_model": "deepseek-flash",
+      "prompt_version": "financial-multi-agent-v5",
+      "request_hash": "0831844dbd5606de8a67a668b3287e47ac26e433dc7ff81188c4b0d7b4b9acea",
+      "started_at": "2026-09-28T16:23:10.076807+00:00",
+      "cache_hit": false,
+      "status": "passed",
+      "returned_model": "deepseek-flash",
+      "response_hash": "6b97e5d0f14de6d12b2df7745a3beb05bfb1b1d349abe27d7381ebe809f9e515",
+      "response_id": "fcee6aa7-23e5-4267-9752-9166752a03b9",
+      "usage": {
+        "prompt_tokens": 1460,
+        "completion_tokens": 119,
+        "total_tokens": 1579,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 1204
+      },
+      "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+      "finished_at": "2026-09-28T16:23:12.373870+00:00",
+      "duration_ms": 2296.553
+    },
+    {
+      "agent_id": "cashflow",
+      "provider": "deepseek",
+      "requested_model": "deepseek-flash",
+      "prompt_version": "financial-multi-agent-v5",
+      "request_hash": "a9a5119eab7f154cc725fd19bd4ecd1be6101ba97d6a5fbf495852a2d6b2755a",
+      "started_at": "2026-09-28T16:23:12.206329+00:00",
+      "cache_hit": false,
+      "status": "passed",
+      "returned_model": "deepseek-flash",
+      "response_hash": "f325754e390e39737d35bdb3be4cb0ccdcfdf29e7e6a4688f5254613d335e525",
+      "response_id": "d8bbd6b6-a67c-430e-ad86-71778a5a9774",
+      "usage": {
+        "prompt_tokens": 6026,
+        "completion_tokens": 213,
+        "total_tokens": 6239,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 5770
+      },
+      "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+      "finished_at": "2026-09-28T16:23:13.615232+00:00",
+      "duration_ms": 1408.693
+    },
+    {
+      "agent_id": "nonrecurring",
+      "provider": "deepseek",
+      "requested_model": "deepseek-flash",
+      "prompt_version": "financial-multi-agent-v5",
+      "request_hash": "25f11e080ad8200c00c2aa4171866c8f21185c6bb5182b1bc1fb3f40ce0d20c7",
+      "started_at": "2026-09-28T16:23:10.076807+00:00",
+      "cache_hit": false,
+      "status": "passed",
+      "returned_model": "deepseek-flash",
+      "response_hash": "24364c5c0a0404e1ba1b5019e806554f3a39f1f1212e3c1a83bba3cbc3da372c",
+      "response_id": "6a28d85e-363c-4264-9846-b8f5f66d08a8",
+      "usage": {
+        "prompt_tokens": 4024,
+        "completion_tokens": 147,
+        "total_tokens": 4171,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 3768
+      },
+      "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+      "finished_at": "2026-09-28T16:23:12.196314+00:00",
+      "duration_ms": 2119.178
+    },
+    {
+      "agent_id": "other_risks",
+      "provider": "deepseek",
+      "requested_model": "deepseek-flash",
+      "prompt_version": "financial-multi-agent-v5",
+      "request_hash": "e7531ae3d5fab1629cc726360a2da77e80351b7e449bb986f3c49bd39029603b",
+      "started_at": "2026-09-28T16:23:12.386883+00:00",
+      "cache_hit": false,
+      "status": "passed",
+      "returned_model": "deepseek-flash",
+      "response_hash": "a4a0bd254811d779a1d968523110978879dc61a096a079c9ac53f089d3b69e6e",
+      "response_id": "a993e42c-cf35-4979-9924-5d6f92dd4100",
+      "usage": {
+        "prompt_tokens": 13399,
+        "completion_tokens": 333,
+        "total_tokens": 13732,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 13143
+      },
+      "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+      "finished_at": "2026-09-28T16:23:14.528202+00:00",
+      "duration_ms": 2140.836
+    },
+    {
+      "agent_id": "performance",
+      "provider": "deepseek",
+      "requested_model": "deepseek-flash",
+      "prompt_version": "financial-multi-agent-v5",
+      "request_hash": "28d1198e3dacfbe0dbbaf2523341e4db1f727d3c77995454b171860703c252b5",
+      "started_at": "2026-09-28T16:23:10.067578+00:00",
+      "cache_hit": false,
+      "status": "passed",
+      "returned_model": "deepseek-flash",
+      "response_hash": "8383a00499da7e7f0e8268c664212409bdd656f81d76d232d86afad98bf0d9d2",
+      "response_id": "0f6b555d-ade7-44da-b3b1-5a8c12c8dd8b",
+      "usage": {
+        "prompt_tokens": 13368,
+        "completion_tokens": 606,
+        "total_tokens": 13974,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 13112
+      },
+      "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+      "finished_at": "2026-09-28T16:23:14.001726+00:00",
+      "duration_ms": 3933.67
+    },
+    {
+      "agent_id": "rating",
+      "provider": "deepseek",
+      "requested_model": "deepseek-flash",
+      "prompt_version": "financial-multi-agent-v5",
+      "request_hash": "30919d8acca48593ae1458ec9bd20ecc5cf57d85c09e650bcf11affc977bdd58",
+      "started_at": "2026-09-28T16:23:14.537311+00:00",
+      "cache_hit": false,
+      "status": "passed",
+      "returned_model": "deepseek-flash",
+      "response_hash": "f742386b1a887235fb44dda58bf358c6c55608644f06cdcd6c3c43cabd3f9835",
+      "response_id": "e71f50e5-8b4f-4653-8fdb-39a9b0970837",
+      "usage": {
+        "prompt_tokens": 4124,
+        "completion_tokens": 316,
+        "total_tokens": 4440,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 3868
+      },
+      "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+      "finished_at": "2026-09-28T16:23:16.511325+00:00",
+      "duration_ms": 1973.749
+    },
+    {
+      "agent_id": "report_editor",
+      "provider": "deepseek",
+      "requested_model": "deepseek-flash",
+      "prompt_version": "financial-multi-agent-v5",
+      "request_hash": "3e89f1be86443cb6bb36d022e9da7aced3faa9fb97594f873bcb8b930d023c6f",
+      "started_at": "2026-09-28T16:23:16.522852+00:00",
+      "cache_hit": false,
+      "status": "passed",
+      "returned_model": "deepseek-flash",
+      "response_hash": "af8cce4e725149b95c9ad18aa37e5faae193ccbf18b8b1cecc94ab5b10a525a9",
+      "response_id": "4dc94d63-0392-431f-8d3c-4a970c021c31",
+      "usage": {
+        "prompt_tokens": 9172,
+        "completion_tokens": 1231,
+        "total_tokens": 10403,
+        "prompt_tokens_details": {
+          "cached_tokens": 384
+        },
+        "prompt_cache_hit_tokens": 384,
+        "prompt_cache_miss_tokens": 8788
+      },
+      "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669",
+      "finished_at": "2026-09-28T16:23:20.819174+00:00",
+      "duration_ms": 4296.244
+    }
+  ]
+}

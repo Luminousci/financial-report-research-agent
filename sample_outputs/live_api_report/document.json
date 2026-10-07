@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "document_id": "6ffeae42c1fac36c",
+    "path": "E:\\金融人工智能\\年报\\泡泡玛特年报\\第一季度报告.pdf",
+    "file_name": "第一季度报告.pdf",
+    "sha256": "6ffeae42c1fac36cbc2a71f60da927091e4851b2667b3549e661bcf949729b8b",
+    "page_count": 2,
+    "company_name": "泡泡玛特国际集团有限公司",
+    "security_code": "09992",
+    "report_year": 2025,
+    "report_type": "business_update",
+    "industry_profile": "non_financial",
+    "accounting_standard": "IFRS",
+    "currency": "CNY",
+    "unit_scale": "1",
+    "native_text_ratio": 0.0,
+    "ocr_pages": [
+      1,
+      2
+    ],
+    "limitations": [
+      "The document is a short business update rather than a complete quarterly financial report."
+    ]
+  },
+  "pages": [
+    {
+      "page": 1,
+      "text": "香港交易及結算所有限公司及香港聯合交易所有限公司對本公告的內容概不負責，對其準確性或完整性亦不發表任何聲明，並明確表示，概不對因本公告全部或任何部份內容而產生或因依賴該等內容而引致的任何損失承擔任何責任。\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_740_319_1075_414.jpg\" alt=\"Image\" width=\"18%\" /></div>\n\n\n# POP MART INTERNATIONAL GROUP LIMITED 泡泡瑪特國際集團有限公司\n\n（於開曼群島註冊成立的有限公司）（股份代號：9992）\n\n## 二零二五 年第一季度最新業務狀況\n\n本公告由泡泡瑪特國際集團有限公司（「本公司」，連同其附屬公司及併表聯屬實體統稱「本集團」）董事會（「董事會」）自願作出，以告知本公司股東及潛在投資者本集團最新業務更新。\n\n## 二零二五 年第一季度整體收益表現\n\n二零二五年第一季度整體收益（未經審核），較二零二四年第一季度同比增長165%-170%，其中中國收益同比增長95%-100%，海外 $ ^{1} $收益同比增長475%-480%。\n\n## 二零二五 年第一季度中國各渠道收益表現\n\n二零二五年第一季度中國各渠道收益（未經審核），與二零二四年第一季度比較為：\n\n(1) 線下渠道同比增長85%-90%；及\n\n(2) 線上渠道同比增長140%-145%。",
+      "method": "ocr:aistudio",
+      "quality_score": 0.9933898305084746,
+      "needs_ocr": false,
+      "quality_reasons": []
+    },
+    {
+      "page": 2,
+      "text": "## 二零二五 年第一季度海外各區域收益表現\n\n二零二五年第一季度海外各區域收益（未經審核），與二零二四年第一季度比較為：\n\n(1) 亞太 $ ^{2} $同比增長345%-350%；\n\n(2) 美洲同比增長895%-900%；及\n\n(3) 歐洲同比增長600%-605%。\n\n本公告乃根據董事會初步審閱本集團之相關管理賬目及董事會現時可獲資料後作出，並非以本集團核數師審核或審閱後的數據和資料為基礎。本公告內的資料亦可能會修改或調整。本公司之股東和潛在投資者買賣本公司證券時務請審慎行事。\n\n## 承董事會命\n\n泡泡瑪特國際集團有限公司\n\n執行董事、董事會主席及行政總裁\n\n王寧\n\n## 香港，2025年4月22日\n\n於本公告日期，執行董事為王寧先生、劉冉女士、司德先生及文德一先生，非執行董事為屠錚先生及何愚先生，以及獨立非執行董事為張建君先生、吳聯生先生及顏勁良先生。",
+      "method": "ocr:aistudio",
+      "quality_score": 0.9209,
+      "needs_ocr": false,
+      "quality_reasons": []
+    }
+  ],
+  "tables": []
+}

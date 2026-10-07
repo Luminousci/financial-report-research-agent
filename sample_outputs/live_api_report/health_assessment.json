@@ -1,0 +1,12 @@
+{
+  "profile": "business_update",
+  "score": null,
+  "grade": "不适用",
+  "status": "insufficient",
+  "coverage_ratio": "0",
+  "methodology": "经营快报仅披露区间型收益增速，不适用完整财报健康评分。",
+  "components": [],
+  "limitations": [
+    "需结合完整利润表、资产负债表和现金流量表后再评分。"
+  ]
+}

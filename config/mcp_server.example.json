@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "financial-report-agent": {
+      "command": "python",
+      "args": ["-m", "fin_agent.mcp_server"],
+      "cwd": "<PROJECT_ROOT>",
+      "env": {
+        "PYTHONPATH": "<PROJECT_ROOT>/src"
+      }
+    }
+  }
+}

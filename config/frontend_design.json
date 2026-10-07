@@ -1,0 +1,38 @@
+{
+  "seed": 2257504322086257687,
+  "concept": "麦穗终端",
+  "generation_mode": "one_time_seeded_random",
+  "tokens": {
+    "background": "#071718",
+    "surface": "#FFFDF4",
+    "ink": "#213333",
+    "accent": "#356859",
+    "support": "#C86B4A",
+    "success": "#50723C",
+    "radius_px": 8,
+    "gap_px": 14,
+    "shadow_y_px": 0,
+    "shadow_blur_px": 0
+  },
+  "layout": "borderless-editorial-agent-stage",
+  "metric_shape": "hairline-ledger-row",
+  "decoration": "subtle-grain-and-market-photo",
+  "button_treatment": "high-contrast-pill-action",
+  "constraint": "full-bleed-market-photo-with-borderless-information-layers",
+  "background_asset": "agent_assets/ui/market-analysis-background.jpg",
+  "action_layout": "minimal-primary-secondary-pill-pair",
+  "surface_treatment": "borderless-transparent-surfaces-with-hairline-separators",
+  "motion": {
+    "pattern": "six-step-evidence-trace",
+    "interval_ms": 1400,
+    "reduced_motion_supported": true,
+    "pause_control": true,
+    "scroll_reveal": "blur-to-sharp-pop-with-stagger"
+  },
+  "reference_principles": [
+    "oversized editorial typography and deliberate whitespace",
+    "borderless information layers separated by fine rules",
+    "application proof kept visible without a framed card",
+    "high-contrast pill actions and restrained motion"
+  ]
+}

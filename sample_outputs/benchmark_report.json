@@ -1,0 +1,297 @@
+{
+  "generated_at": "2026-09-27T05:18:55.467925+00:00",
+  "case_count": 3,
+  "mean_fact_accuracy": 1.0,
+  "mean_finding_recall": 1.0,
+  "mean_provenance_rate": 1.0,
+  "cases": [
+    {
+      "case_id": "icbc_2025_annual",
+      "input_path": "E:\\金融人工智能\\年报\\工商银行年报\\2025年报.pdf",
+      "fact_accuracy": 1.0,
+      "finding_recall": 1.0,
+      "provenance_rate": 1.0,
+      "fact_checks": [
+        {
+          "key": [
+            "revenue",
+            "FY2025",
+            "value"
+          ],
+          "expected": "838270000000",
+          "actual": "838270000000",
+          "passed": true
+        },
+        {
+          "key": [
+            "net_interest_income",
+            "FY2025",
+            "value"
+          ],
+          "expected": "635126000000",
+          "actual": "635126000000",
+          "passed": true
+        },
+        {
+          "key": [
+            "net_profit_parent",
+            "FY2025",
+            "value"
+          ],
+          "expected": "368562000000",
+          "actual": "368562000000",
+          "passed": true
+        },
+        {
+          "key": [
+            "operating_cash_flow",
+            "FY2025",
+            "value"
+          ],
+          "expected": "1890530000000",
+          "actual": "1890530000000",
+          "passed": true
+        },
+        {
+          "key": [
+            "total_assets",
+            "FY2025",
+            "value"
+          ],
+          "expected": "53477773000000",
+          "actual": "53477773000000",
+          "passed": true
+        },
+        {
+          "key": [
+            "nonperforming_loan_ratio",
+            "FY2025",
+            "value"
+          ],
+          "expected": "1.31",
+          "actual": "1.31",
+          "passed": true
+        },
+        {
+          "key": [
+            "provision_coverage_ratio",
+            "FY2025",
+            "value"
+          ],
+          "expected": "213.60",
+          "actual": "213.60",
+          "passed": true
+        },
+        {
+          "key": [
+            "capital_adequacy_ratio",
+            "FY2025",
+            "value"
+          ],
+          "expected": "18.76",
+          "actual": "18.76",
+          "passed": true
+        }
+      ],
+      "finding_checks": [],
+      "run_dir": "E:\\金融人工智能\\fin_research_agent\\outputs\\20260927_131801_975719_2025年报"
+    },
+    {
+      "case_id": "moutai_2025_q3",
+      "input_path": "E:\\金融人工智能\\年报\\贵州茅台年报\\第三季度报告.pdf",
+      "fact_accuracy": 1.0,
+      "finding_recall": 1.0,
+      "provenance_rate": 1.0,
+      "fact_checks": [
+        {
+          "key": [
+            "revenue",
+            "FY2025_Q3_single",
+            "value"
+          ],
+          "expected": "39064353239.02",
+          "actual": "39064353239.02",
+          "passed": true
+        },
+        {
+          "key": [
+            "revenue",
+            "FY2025_Q3_single",
+            "reported_yoy_pct"
+          ],
+          "expected": "0.56",
+          "actual": "0.56",
+          "passed": true
+        },
+        {
+          "key": [
+            "revenue",
+            "FY2025_YTD_Q3",
+            "value"
+          ],
+          "expected": "128453707655.86",
+          "actual": "128453707655.86",
+          "passed": true
+        },
+        {
+          "key": [
+            "revenue",
+            "FY2025_YTD_Q3",
+            "reported_yoy_pct"
+          ],
+          "expected": "6.36",
+          "actual": "6.36",
+          "passed": true
+        },
+        {
+          "key": [
+            "net_profit_parent",
+            "FY2025_Q3_single",
+            "value"
+          ],
+          "expected": "19223784414.08",
+          "actual": "19223784414.08",
+          "passed": true
+        },
+        {
+          "key": [
+            "net_profit_parent",
+            "FY2025_YTD_Q3",
+            "value"
+          ],
+          "expected": "64626746712.18",
+          "actual": "64626746712.18",
+          "passed": true
+        },
+        {
+          "key": [
+            "net_profit_parent",
+            "FY2025_YTD_Q3",
+            "reported_yoy_pct"
+          ],
+          "expected": "6.25",
+          "actual": "6.25",
+          "passed": true
+        },
+        {
+          "key": [
+            "net_profit_excl_nonrecurring",
+            "FY2025_YTD_Q3",
+            "value"
+          ],
+          "expected": "64680616431.20",
+          "actual": "64680616431.20",
+          "passed": true
+        },
+        {
+          "key": [
+            "operating_cash_flow",
+            "FY2025_YTD_Q3",
+            "value"
+          ],
+          "expected": "38196802155.27",
+          "actual": "38196802155.27",
+          "passed": true
+        },
+        {
+          "key": [
+            "operating_cash_flow",
+            "FY2025_YTD_Q3",
+            "reported_yoy_pct"
+          ],
+          "expected": "-14.01",
+          "actual": "-14.01",
+          "passed": true
+        },
+        {
+          "key": [
+            "total_assets",
+            "FY2025_YTD_Q3",
+            "value"
+          ],
+          "expected": "304738184929.86",
+          "actual": "304738184929.86",
+          "passed": true
+        },
+        {
+          "key": [
+            "equity_parent",
+            "FY2025_YTD_Q3",
+            "value"
+          ],
+          "expected": "257069964386.23",
+          "actual": "257069964386.23",
+          "passed": true
+        }
+      ],
+      "finding_checks": [
+        {
+          "rule_id": "cash_profit_growth_divergence",
+          "passed": true
+        }
+      ],
+      "run_dir": "E:\\金融人工智能\\fin_research_agent\\outputs\\20260927_131845_967960_第三季度报告"
+    },
+    {
+      "case_id": "popmart_2025_annual",
+      "input_path": "E:\\金融人工智能\\年报\\泡泡玛特年报\\2025年报.pdf",
+      "fact_accuracy": 1.0,
+      "finding_recall": 1.0,
+      "provenance_rate": 1.0,
+      "fact_checks": [
+        {
+          "key": [
+            "revenue",
+            "FY2025",
+            "value"
+          ],
+          "expected": "37120052000",
+          "actual": "37120052000",
+          "passed": true
+        },
+        {
+          "key": [
+            "net_profit_parent",
+            "FY2025",
+            "value"
+          ],
+          "expected": "12775689000",
+          "actual": "12775689000",
+          "passed": true
+        },
+        {
+          "key": [
+            "operating_cash_flow",
+            "FY2025",
+            "value"
+          ],
+          "expected": "10865152000",
+          "actual": "10865152000",
+          "passed": true
+        },
+        {
+          "key": [
+            "total_assets",
+            "FY2025",
+            "value"
+          ],
+          "expected": "32101354000",
+          "actual": "32101354000",
+          "passed": true
+        },
+        {
+          "key": [
+            "total_liabilities",
+            "FY2025",
+            "value"
+          ],
+          "expected": "9448987000",
+          "actual": "9448987000",
+          "passed": true
+        }
+      ],
+      "finding_checks": [],
+      "run_dir": "E:\\金融人工智能\\fin_research_agent\\outputs\\20260927_131847_729917_2025年报"
+    }
+  ]
+}

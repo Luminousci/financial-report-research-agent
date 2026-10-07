@@ -1,0 +1,2388 @@
+{
+  "document": {
+    "document_id": "22195f6590f7e015",
+    "path": "E:\\金融人工智能\\fin_research_agent\\财报数据\\示例\\000651_格力电器_2026Q1_第一季度报告.pdf",
+    "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+    "sha256": "22195f6590f7e015e8118063a3cb141010dff890169840b8a4395ef151f5d9ae",
+    "page_count": 9,
+    "company_name": "珠海格力电器股份有限公司",
+    "security_code": "000651",
+    "report_year": 2026,
+    "report_type": "q1",
+    "industry_profile": "non_financial",
+    "accounting_standard": "CAS",
+    "currency": "CNY",
+    "unit_scale": "1",
+    "native_text_ratio": 1.0,
+    "ocr_pages": [],
+    "limitations": []
+  },
+  "facts": [
+    {
+      "metric_code": "revenue",
+      "metric_name": "营业收入",
+      "value": "42966121178.08",
+      "raw_value": "42,966,121,178.08",
+      "unit": "元",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "single_quarter",
+      "comparison_kind": "value",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 2,
+        "table_index": 0,
+        "row_index": 1,
+        "raw_label": "营业收入（元）",
+        "raw_value": "42,966,121,178.08",
+        "evidence_text": "营业收入（元） | 42,966,121,178.08 | 41,506,860,074.79 | 3.52%",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "revenue",
+      "metric_name": "营业收入",
+      "value": "41506860074.79",
+      "raw_value": "41,506,860,074.79",
+      "unit": "元",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "single_quarter",
+      "comparison_kind": "prior_value",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 2,
+        "table_index": 0,
+        "row_index": 1,
+        "raw_label": "营业收入（元）",
+        "raw_value": "41,506,860,074.79",
+        "evidence_text": "营业收入（元） | 42,966,121,178.08 | 41,506,860,074.79 | 3.52%",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "revenue",
+      "metric_name": "营业收入",
+      "value": "3.52",
+      "raw_value": "3.52%",
+      "unit": "%",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "single_quarter",
+      "comparison_kind": "reported_yoy_pct",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 2,
+        "table_index": 0,
+        "row_index": 1,
+        "raw_label": "营业收入（元）",
+        "raw_value": "3.52%",
+        "evidence_text": "营业收入（元） | 42,966,121,178.08 | 41,506,860,074.79 | 3.52%",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "net_profit_parent",
+      "metric_name": "归属于母公司股东的净利润",
+      "value": "6082159344.39",
+      "raw_value": "6,082,159,344.39",
+      "unit": "元",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "single_quarter",
+      "comparison_kind": "value",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 2,
+        "table_index": 0,
+        "row_index": 2,
+        "raw_label": "归属于上市公司股东的净利\n润（元）",
+        "raw_value": "6,082,159,344.39",
+        "evidence_text": "归属于上市公司股东的净利\n润（元） | 6,082,159,344.39 | 5,904,459,443.46 | 3.01%",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "net_profit_parent",
+      "metric_name": "归属于母公司股东的净利润",
+      "value": "5904459443.46",
+      "raw_value": "5,904,459,443.46",
+      "unit": "元",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "single_quarter",
+      "comparison_kind": "prior_value",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 2,
+        "table_index": 0,
+        "row_index": 2,
+        "raw_label": "归属于上市公司股东的净利\n润（元）",
+        "raw_value": "5,904,459,443.46",
+        "evidence_text": "归属于上市公司股东的净利\n润（元） | 6,082,159,344.39 | 5,904,459,443.46 | 3.01%",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "net_profit_parent",
+      "metric_name": "归属于母公司股东的净利润",
+      "value": "3.01",
+      "raw_value": "3.01%",
+      "unit": "%",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "single_quarter",
+      "comparison_kind": "reported_yoy_pct",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 2,
+        "table_index": 0,
+        "row_index": 2,
+        "raw_label": "归属于上市公司股东的净利\n润（元）",
+        "raw_value": "3.01%",
+        "evidence_text": "归属于上市公司股东的净利\n润（元） | 6,082,159,344.39 | 5,904,459,443.46 | 3.01%",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "net_profit_excl_nonrecurring",
+      "metric_name": "扣除非经常性损益后的归母净利润",
+      "value": "5702183701.81",
+      "raw_value": "5,702,183,701.81",
+      "unit": "元",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "single_quarter",
+      "comparison_kind": "value",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 2,
+        "table_index": 0,
+        "row_index": 3,
+        "raw_label": "归属于上市公司股东的扣除\n非经常性损益的净利润\n（元）",
+        "raw_value": "5,702,183,701.81",
+        "evidence_text": "归属于上市公司股东的扣除\n非经常性损益的净利润\n（元） | 5,702,183,701.81 | 5,717,342,878.89 | -0.27%",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "net_profit_excl_nonrecurring",
+      "metric_name": "扣除非经常性损益后的归母净利润",
+      "value": "5717342878.89",
+      "raw_value": "5,717,342,878.89",
+      "unit": "元",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "single_quarter",
+      "comparison_kind": "prior_value",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 2,
+        "table_index": 0,
+        "row_index": 3,
+        "raw_label": "归属于上市公司股东的扣除\n非经常性损益的净利润\n（元）",
+        "raw_value": "5,717,342,878.89",
+        "evidence_text": "归属于上市公司股东的扣除\n非经常性损益的净利润\n（元） | 5,702,183,701.81 | 5,717,342,878.89 | -0.27%",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "net_profit_excl_nonrecurring",
+      "metric_name": "扣除非经常性损益后的归母净利润",
+      "value": "-0.27",
+      "raw_value": "-0.27%",
+      "unit": "%",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "single_quarter",
+      "comparison_kind": "reported_yoy_pct",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 2,
+        "table_index": 0,
+        "row_index": 3,
+        "raw_label": "归属于上市公司股东的扣除\n非经常性损益的净利润\n（元）",
+        "raw_value": "-0.27%",
+        "evidence_text": "归属于上市公司股东的扣除\n非经常性损益的净利润\n（元） | 5,702,183,701.81 | 5,717,342,878.89 | -0.27%",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "operating_cash_flow",
+      "metric_name": "经营活动产生的现金流量净额",
+      "value": "7798541802.42",
+      "raw_value": "7,798,541,802.42",
+      "unit": "元",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "single_quarter",
+      "comparison_kind": "value",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 2,
+        "table_index": 0,
+        "row_index": 4,
+        "raw_label": "经营活动产生的现金流量净\n额（元）",
+        "raw_value": "7,798,541,802.42",
+        "evidence_text": "经营活动产生的现金流量净\n额（元） | 7,798,541,802.42 | 11,001,218,583.01 | -29.11%",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "operating_cash_flow",
+      "metric_name": "经营活动产生的现金流量净额",
+      "value": "11001218583.01",
+      "raw_value": "11,001,218,583.01",
+      "unit": "元",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "single_quarter",
+      "comparison_kind": "prior_value",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 2,
+        "table_index": 0,
+        "row_index": 4,
+        "raw_label": "经营活动产生的现金流量净\n额（元）",
+        "raw_value": "11,001,218,583.01",
+        "evidence_text": "经营活动产生的现金流量净\n额（元） | 7,798,541,802.42 | 11,001,218,583.01 | -29.11%",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "operating_cash_flow",
+      "metric_name": "经营活动产生的现金流量净额",
+      "value": "-29.11",
+      "raw_value": "-29.11%",
+      "unit": "%",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "single_quarter",
+      "comparison_kind": "reported_yoy_pct",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 2,
+        "table_index": 0,
+        "row_index": 4,
+        "raw_label": "经营活动产生的现金流量净\n额（元）",
+        "raw_value": "-29.11%",
+        "evidence_text": "经营活动产生的现金流量净\n额（元） | 7,798,541,802.42 | 11,001,218,583.01 | -29.11%",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "basic_eps",
+      "metric_name": "基本每股收益",
+      "value": "1.09",
+      "raw_value": "1.09",
+      "unit": "元/股",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "single_quarter",
+      "comparison_kind": "value",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 2,
+        "table_index": 0,
+        "row_index": 5,
+        "raw_label": "基本每股收益（元/股）",
+        "raw_value": "1.09",
+        "evidence_text": "基本每股收益（元/股） | 1.09 | 1.07 | 1.87%",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "basic_eps",
+      "metric_name": "基本每股收益",
+      "value": "1.07",
+      "raw_value": "1.07",
+      "unit": "元/股",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "single_quarter",
+      "comparison_kind": "prior_value",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 2,
+        "table_index": 0,
+        "row_index": 5,
+        "raw_label": "基本每股收益（元/股）",
+        "raw_value": "1.07",
+        "evidence_text": "基本每股收益（元/股） | 1.09 | 1.07 | 1.87%",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "basic_eps",
+      "metric_name": "基本每股收益",
+      "value": "1.87",
+      "raw_value": "1.87%",
+      "unit": "%",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "single_quarter",
+      "comparison_kind": "reported_yoy_pct",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 2,
+        "table_index": 0,
+        "row_index": 5,
+        "raw_label": "基本每股收益（元/股）",
+        "raw_value": "1.87%",
+        "evidence_text": "基本每股收益（元/股） | 1.09 | 1.07 | 1.87%",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "diluted_eps",
+      "metric_name": "稀释每股收益",
+      "value": "1.09",
+      "raw_value": "1.09",
+      "unit": "元/股",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "single_quarter",
+      "comparison_kind": "value",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 2,
+        "table_index": 0,
+        "row_index": 6,
+        "raw_label": "稀释每股收益（元/股）",
+        "raw_value": "1.09",
+        "evidence_text": "稀释每股收益（元/股） | 1.09 | 1.07 | 1.87%",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "diluted_eps",
+      "metric_name": "稀释每股收益",
+      "value": "1.07",
+      "raw_value": "1.07",
+      "unit": "元/股",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "single_quarter",
+      "comparison_kind": "prior_value",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 2,
+        "table_index": 0,
+        "row_index": 6,
+        "raw_label": "稀释每股收益（元/股）",
+        "raw_value": "1.07",
+        "evidence_text": "稀释每股收益（元/股） | 1.09 | 1.07 | 1.87%",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "diluted_eps",
+      "metric_name": "稀释每股收益",
+      "value": "1.87",
+      "raw_value": "1.87%",
+      "unit": "%",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "single_quarter",
+      "comparison_kind": "reported_yoy_pct",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 2,
+        "table_index": 0,
+        "row_index": 6,
+        "raw_label": "稀释每股收益（元/股）",
+        "raw_value": "1.87%",
+        "evidence_text": "稀释每股收益（元/股） | 1.09 | 1.07 | 1.87%",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "equity_parent",
+      "metric_name": "归属于母公司股东的权益",
+      "value": "152024259599.56",
+      "raw_value": "152,024,259,599.56",
+      "unit": "元",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "point_in_time",
+      "comparison_kind": "value",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 2,
+        "table_index": 0,
+        "row_index": 10,
+        "raw_label": "归属于上市公司股东的所有\n者权益（元）",
+        "raw_value": "152,024,259,599.56",
+        "evidence_text": "归属于上市公司股东的所有\n者权益（元） | 152,024,259,599.56 | 145,929,297,804.02 | 4.18%",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "equity_parent",
+      "metric_name": "归属于母公司股东的权益",
+      "value": "145929297804.02",
+      "raw_value": "145,929,297,804.02",
+      "unit": "元",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "point_in_time",
+      "comparison_kind": "prior_value",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 2,
+        "table_index": 0,
+        "row_index": 10,
+        "raw_label": "归属于上市公司股东的所有\n者权益（元）",
+        "raw_value": "145,929,297,804.02",
+        "evidence_text": "归属于上市公司股东的所有\n者权益（元） | 152,024,259,599.56 | 145,929,297,804.02 | 4.18%",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "cash_and_equivalents",
+      "metric_name": "货币资金",
+      "value": "125969161545.86",
+      "raw_value": "125,969,161,545.86",
+      "unit": "元",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "point_in_time",
+      "comparison_kind": "value",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 4,
+        "table_index": 1,
+        "row_index": 2,
+        "raw_label": "货币资金",
+        "raw_value": "125,969,161,545.86",
+        "evidence_text": "货币资金 | 125,969,161,545.86 | 110,553,006,650.89",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "cash_and_equivalents",
+      "metric_name": "货币资金",
+      "value": "110553006650.89",
+      "raw_value": "110,553,006,650.89",
+      "unit": "元",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "point_in_time",
+      "comparison_kind": "prior_value",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 4,
+        "table_index": 1,
+        "row_index": 2,
+        "raw_label": "货币资金",
+        "raw_value": "110,553,006,650.89",
+        "evidence_text": "货币资金 | 125,969,161,545.86 | 110,553,006,650.89",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "accounts_receivable",
+      "metric_name": "应收账款",
+      "value": "17756039770.46",
+      "raw_value": "17,756,039,770.46",
+      "unit": "元",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "point_in_time",
+      "comparison_kind": "value",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 4,
+        "table_index": 1,
+        "row_index": 7,
+        "raw_label": "应收账款",
+        "raw_value": "17,756,039,770.46",
+        "evidence_text": "应收账款 | 17,756,039,770.46 | 15,987,180,598.76",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "accounts_receivable",
+      "metric_name": "应收账款",
+      "value": "15987180598.76",
+      "raw_value": "15,987,180,598.76",
+      "unit": "元",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "point_in_time",
+      "comparison_kind": "prior_value",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 4,
+        "table_index": 1,
+        "row_index": 7,
+        "raw_label": "应收账款",
+        "raw_value": "15,987,180,598.76",
+        "evidence_text": "应收账款 | 17,756,039,770.46 | 15,987,180,598.76",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "prepayments",
+      "metric_name": "预付款项",
+      "value": "1413728487.80",
+      "raw_value": "1,413,728,487.80",
+      "unit": "元",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "point_in_time",
+      "comparison_kind": "value",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 4,
+        "table_index": 1,
+        "row_index": 9,
+        "raw_label": "预付款项",
+        "raw_value": "1,413,728,487.80",
+        "evidence_text": "预付款项 | 1,413,728,487.80 | 1,211,213,034.38",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "prepayments",
+      "metric_name": "预付款项",
+      "value": "1211213034.38",
+      "raw_value": "1,211,213,034.38",
+      "unit": "元",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "point_in_time",
+      "comparison_kind": "prior_value",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 4,
+        "table_index": 1,
+        "row_index": 9,
+        "raw_label": "预付款项",
+        "raw_value": "1,211,213,034.38",
+        "evidence_text": "预付款项 | 1,413,728,487.80 | 1,211,213,034.38",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "inventory",
+      "metric_name": "存货",
+      "value": "25692817342.96",
+      "raw_value": "25,692,817,342.96",
+      "unit": "元",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "point_in_time",
+      "comparison_kind": "value",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 4,
+        "table_index": 1,
+        "row_index": 14,
+        "raw_label": "存货",
+        "raw_value": "25,692,817,342.96",
+        "evidence_text": "存货 | 25,692,817,342.96 | 28,183,464,259.53",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "inventory",
+      "metric_name": "存货",
+      "value": "28183464259.53",
+      "raw_value": "28,183,464,259.53",
+      "unit": "元",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "point_in_time",
+      "comparison_kind": "prior_value",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 4,
+        "table_index": 1,
+        "row_index": 14,
+        "raw_label": "存货",
+        "raw_value": "28,183,464,259.53",
+        "evidence_text": "存货 | 25,692,817,342.96 | 28,183,464,259.53",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "current_assets",
+      "metric_name": "流动资产合计",
+      "value": "242450602285.25",
+      "raw_value": "242,450,602,285.25",
+      "unit": "元",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "point_in_time",
+      "comparison_kind": "value",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 5,
+        "table_index": 0,
+        "row_index": 3,
+        "raw_label": "流动资产合计",
+        "raw_value": "242,450,602,285.25",
+        "evidence_text": "流动资产合计 | 242,450,602,285.25 | 250,943,551,897.43",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "current_assets",
+      "metric_name": "流动资产合计",
+      "value": "250943551897.43",
+      "raw_value": "250,943,551,897.43",
+      "unit": "元",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "point_in_time",
+      "comparison_kind": "prior_value",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 5,
+        "table_index": 0,
+        "row_index": 3,
+        "raw_label": "流动资产合计",
+        "raw_value": "250,943,551,897.43",
+        "evidence_text": "流动资产合计 | 242,450,602,285.25 | 250,943,551,897.43",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "accounts_payable",
+      "metric_name": "应付账款",
+      "value": "43973231538.84",
+      "raw_value": "43,973,231,538.84",
+      "unit": "元",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "point_in_time",
+      "comparison_kind": "value",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 5,
+        "table_index": 0,
+        "row_index": 33,
+        "raw_label": "应付账款",
+        "raw_value": "43,973,231,538.84",
+        "evidence_text": "应付账款 | 43,973,231,538.84 | 42,103,940,920.24",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "accounts_payable",
+      "metric_name": "应付账款",
+      "value": "42103940920.24",
+      "raw_value": "42,103,940,920.24",
+      "unit": "元",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "point_in_time",
+      "comparison_kind": "prior_value",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 5,
+        "table_index": 0,
+        "row_index": 33,
+        "raw_label": "应付账款",
+        "raw_value": "42,103,940,920.24",
+        "evidence_text": "应付账款 | 43,973,231,538.84 | 42,103,940,920.24",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "contract_liabilities",
+      "metric_name": "合同负债",
+      "value": "12335349636.15",
+      "raw_value": "12,335,349,636.15",
+      "unit": "元",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "point_in_time",
+      "comparison_kind": "value",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 5,
+        "table_index": 0,
+        "row_index": 35,
+        "raw_label": "合同负债",
+        "raw_value": "12,335,349,636.15",
+        "evidence_text": "合同负债 | 12,335,349,636.15 | 15,206,576,385.44",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "contract_liabilities",
+      "metric_name": "合同负债",
+      "value": "15206576385.44",
+      "raw_value": "15,206,576,385.44",
+      "unit": "元",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "point_in_time",
+      "comparison_kind": "prior_value",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 5,
+        "table_index": 0,
+        "row_index": 35,
+        "raw_label": "合同负债",
+        "raw_value": "15,206,576,385.44",
+        "evidence_text": "合同负债 | 12,335,349,636.15 | 15,206,576,385.44",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "current_liabilities",
+      "metric_name": "流动负债合计",
+      "value": "216887259395.01",
+      "raw_value": "216,887,259,395.01",
+      "unit": "元",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "point_in_time",
+      "comparison_kind": "value",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 5,
+        "table_index": 0,
+        "row_index": 45,
+        "raw_label": "流动负债合计",
+        "raw_value": "216,887,259,395.01",
+        "evidence_text": "流动负债合计 | 216,887,259,395.01 | 231,569,831,196.26",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "current_liabilities",
+      "metric_name": "流动负债合计",
+      "value": "231569831196.26",
+      "raw_value": "231,569,831,196.26",
+      "unit": "元",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "point_in_time",
+      "comparison_kind": "prior_value",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 5,
+        "table_index": 0,
+        "row_index": 45,
+        "raw_label": "流动负债合计",
+        "raw_value": "231,569,831,196.26",
+        "evidence_text": "流动负债合计 | 216,887,259,395.01 | 231,569,831,196.26",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "operating_revenue_total",
+      "metric_name": "营业总收入",
+      "value": "43080395805.39",
+      "raw_value": "43,080,395,805.39",
+      "unit": "元",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "single_quarter",
+      "comparison_kind": "value",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 6,
+        "table_index": 1,
+        "row_index": 1,
+        "raw_label": "一、营业总收入",
+        "raw_value": "43,080,395,805.39",
+        "evidence_text": "一、营业总收入 | 43,080,395,805.39 | 41,639,050,426.79",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "operating_revenue_total",
+      "metric_name": "营业总收入",
+      "value": "41639050426.79",
+      "raw_value": "41,639,050,426.79",
+      "unit": "元",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "single_quarter",
+      "comparison_kind": "prior_value",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 6,
+        "table_index": 1,
+        "row_index": 1,
+        "raw_label": "一、营业总收入",
+        "raw_value": "41,639,050,426.79",
+        "evidence_text": "一、营业总收入 | 43,080,395,805.39 | 41,639,050,426.79",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "operating_cost",
+      "metric_name": "营业成本",
+      "value": "31186623197.08",
+      "raw_value": "31,186,623,197.08",
+      "unit": "元",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "single_quarter",
+      "comparison_kind": "value",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 6,
+        "table_index": 1,
+        "row_index": 6,
+        "raw_label": "其中：营业成本",
+        "raw_value": "31,186,623,197.08",
+        "evidence_text": "其中：营业成本 | 31,186,623,197.08 | 30,150,364,481.08",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "operating_cost",
+      "metric_name": "营业成本",
+      "value": "30150364481.08",
+      "raw_value": "30,150,364,481.08",
+      "unit": "元",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "single_quarter",
+      "comparison_kind": "prior_value",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 6,
+        "table_index": 1,
+        "row_index": 6,
+        "raw_label": "其中：营业成本",
+        "raw_value": "30,150,364,481.08",
+        "evidence_text": "其中：营业成本 | 31,186,623,197.08 | 30,150,364,481.08",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "total_profit",
+      "metric_name": "利润总额",
+      "value": "6971863518.37",
+      "raw_value": "6,971,863,518.37",
+      "unit": "元",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "single_quarter",
+      "comparison_kind": "value",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 7,
+        "table_index": 0,
+        "row_index": 11,
+        "raw_label": "四、利润总额（亏损总额以“－”号填列）",
+        "raw_value": "6,971,863,518.37",
+        "evidence_text": "四、利润总额（亏损总额以“－”号填列） | 6,971,863,518.37 | 6,910,237,979.83",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "total_profit",
+      "metric_name": "利润总额",
+      "value": "6910237979.83",
+      "raw_value": "6,910,237,979.83",
+      "unit": "元",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "single_quarter",
+      "comparison_kind": "prior_value",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 7,
+        "table_index": 0,
+        "row_index": 11,
+        "raw_label": "四、利润总额（亏损总额以“－”号填列）",
+        "raw_value": "6,910,237,979.83",
+        "evidence_text": "四、利润总额（亏损总额以“－”号填列） | 6,971,863,518.37 | 6,910,237,979.83",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "weighted_roe",
+      "metric_name": "加权平均净资产收益率",
+      "value": "4.07",
+      "raw_value": "4.07%",
+      "unit": "%",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "single_quarter",
+      "comparison_kind": "value",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 2,
+        "table_index": null,
+        "row_index": null,
+        "raw_label": "加权平均净资产收益率",
+        "raw_value": "4.07%",
+        "evidence_text": "加权平均净资产收益率 4.07% 4.21% 下降 0.14 个百分点 项目 本报告期末 上年度末 本报告期末比上年度末增减 总资产（元） 381,613,603,247.63 391,371,999,819.49 -2.49% 归属于上市公司股东的所有 者权益（元） 152,024,259,599.56 145,929,297,804.02 4.18% （二） 非经常性损益项目和金额 适用 □不适用 单位：元 项目 本报告期金额 非流动性资产处置损益（",
+        "extraction_method": "pypdf_text_fallback",
+        "confidence": 0.86
+      }
+    },
+    {
+      "metric_code": "total_assets",
+      "metric_name": "总资产",
+      "value": "381613603247.63",
+      "raw_value": "381,613,603,247.63",
+      "unit": "元",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "point_in_time",
+      "comparison_kind": "value",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 2,
+        "table_index": 0,
+        "row_index": 9,
+        "raw_label": "总资产（元）",
+        "raw_value": "381,613,603,247.63",
+        "evidence_text": "总资产（元） | 381,613,603,247.63 | 391,371,999,819.49 | -2.49%",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "total_assets",
+      "metric_name": "总资产",
+      "value": "391371999819.49",
+      "raw_value": "391,371,999,819.49",
+      "unit": "元",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "point_in_time",
+      "comparison_kind": "prior_value",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 2,
+        "table_index": 0,
+        "row_index": 9,
+        "raw_label": "总资产（元）",
+        "raw_value": "391,371,999,819.49",
+        "evidence_text": "总资产（元） | 381,613,603,247.63 | 391,371,999,819.49 | -2.49%",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "total_liabilities",
+      "metric_name": "总负债",
+      "value": "225739949642.51",
+      "raw_value": "225,739,949,642.51",
+      "unit": "元",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "point_in_time",
+      "comparison_kind": "value",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 6,
+        "table_index": 0,
+        "row_index": 9,
+        "raw_label": "负债合计",
+        "raw_value": "225,739,949,642.51",
+        "evidence_text": "负债合计 | 225,739,949,642.51 | 241,580,719,144.79",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "total_liabilities",
+      "metric_name": "总负债",
+      "value": "241580719144.79",
+      "raw_value": "241,580,719,144.79",
+      "unit": "元",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "point_in_time",
+      "comparison_kind": "prior_value",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 6,
+        "table_index": 0,
+        "row_index": 9,
+        "raw_label": "负债合计",
+        "raw_value": "241,580,719,144.79",
+        "evidence_text": "负债合计 | 225,739,949,642.51 | 241,580,719,144.79",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "total_equity",
+      "metric_name": "所有者权益合计",
+      "value": "155873653605.12",
+      "raw_value": "155,873,653,605.12",
+      "unit": "元",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "point_in_time",
+      "comparison_kind": "value",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 6,
+        "table_index": 0,
+        "row_index": 24,
+        "raw_label": "所有者权益合计",
+        "raw_value": "155,873,653,605.12",
+        "evidence_text": "所有者权益合计 | 155,873,653,605.12 | 149,791,280,674.70",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    },
+    {
+      "metric_code": "total_equity",
+      "metric_name": "所有者权益合计",
+      "value": "149791280674.70",
+      "raw_value": "149,791,280,674.70",
+      "unit": "元",
+      "currency": "CNY",
+      "unit_scale": "1",
+      "period_label": "FY2026_Q1",
+      "period_type": "point_in_time",
+      "comparison_kind": "prior_value",
+      "statement_scope": "consolidated",
+      "restated": false,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 6,
+        "table_index": 0,
+        "row_index": 24,
+        "raw_label": "所有者权益合计",
+        "raw_value": "149,791,280,674.70",
+        "evidence_text": "所有者权益合计 | 155,873,653,605.12 | 149,791,280,674.70",
+        "extraction_method": "pdfplumber",
+        "confidence": 0.98
+      }
+    }
+  ],
+  "calculations": [
+    {
+      "code": "revenue_yoy_recomputed",
+      "name": "营业收入同比（程序复算）",
+      "value": "3.52",
+      "unit": "%",
+      "formula": "(本期值-上年同期值)/ABS(上年同期值)*100",
+      "inputs": {
+        "current": "42966121178.08",
+        "prior": "41506860074.79"
+      },
+      "period_label": "FY2026_Q1",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "code": "net_profit_parent_yoy_recomputed",
+      "name": "归属于母公司股东的净利润同比（程序复算）",
+      "value": "3.01",
+      "unit": "%",
+      "formula": "(本期值-上年同期值)/ABS(上年同期值)*100",
+      "inputs": {
+        "current": "6082159344.39",
+        "prior": "5904459443.46"
+      },
+      "period_label": "FY2026_Q1",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "code": "net_profit_excl_nonrecurring_yoy_recomputed",
+      "name": "扣除非经常性损益后的归母净利润同比（程序复算）",
+      "value": "-0.27",
+      "unit": "%",
+      "formula": "(本期值-上年同期值)/ABS(上年同期值)*100",
+      "inputs": {
+        "current": "5702183701.81",
+        "prior": "5717342878.89"
+      },
+      "period_label": "FY2026_Q1",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "code": "operating_cash_flow_yoy_recomputed",
+      "name": "经营活动产生的现金流量净额同比（程序复算）",
+      "value": "-29.11",
+      "unit": "%",
+      "formula": "(本期值-上年同期值)/ABS(上年同期值)*100",
+      "inputs": {
+        "current": "7798541802.42",
+        "prior": "11001218583.01"
+      },
+      "period_label": "FY2026_Q1",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "code": "basic_eps_yoy_recomputed",
+      "name": "基本每股收益同比（程序复算）",
+      "value": "1.87",
+      "unit": "%",
+      "formula": "(本期值-上年同期值)/ABS(上年同期值)*100",
+      "inputs": {
+        "current": "1.09",
+        "prior": "1.07"
+      },
+      "period_label": "FY2026_Q1",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "code": "diluted_eps_yoy_recomputed",
+      "name": "稀释每股收益同比（程序复算）",
+      "value": "1.87",
+      "unit": "%",
+      "formula": "(本期值-上年同期值)/ABS(上年同期值)*100",
+      "inputs": {
+        "current": "1.09",
+        "prior": "1.07"
+      },
+      "period_label": "FY2026_Q1",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "code": "equity_parent_yoy_recomputed",
+      "name": "归属于母公司股东的权益同比（程序复算）",
+      "value": "4.18",
+      "unit": "%",
+      "formula": "(本期值-上年同期值)/ABS(上年同期值)*100",
+      "inputs": {
+        "current": "152024259599.56",
+        "prior": "145929297804.02"
+      },
+      "period_label": "FY2026_Q1",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "code": "cash_and_equivalents_yoy_recomputed",
+      "name": "货币资金同比（程序复算）",
+      "value": "13.94",
+      "unit": "%",
+      "formula": "(本期值-上年同期值)/ABS(上年同期值)*100",
+      "inputs": {
+        "current": "125969161545.86",
+        "prior": "110553006650.89"
+      },
+      "period_label": "FY2026_Q1",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "code": "accounts_receivable_yoy_recomputed",
+      "name": "应收账款同比（程序复算）",
+      "value": "11.06",
+      "unit": "%",
+      "formula": "(本期值-上年同期值)/ABS(上年同期值)*100",
+      "inputs": {
+        "current": "17756039770.46",
+        "prior": "15987180598.76"
+      },
+      "period_label": "FY2026_Q1",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "code": "prepayments_yoy_recomputed",
+      "name": "预付款项同比（程序复算）",
+      "value": "16.72",
+      "unit": "%",
+      "formula": "(本期值-上年同期值)/ABS(上年同期值)*100",
+      "inputs": {
+        "current": "1413728487.80",
+        "prior": "1211213034.38"
+      },
+      "period_label": "FY2026_Q1",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "code": "inventory_yoy_recomputed",
+      "name": "存货同比（程序复算）",
+      "value": "-8.84",
+      "unit": "%",
+      "formula": "(本期值-上年同期值)/ABS(上年同期值)*100",
+      "inputs": {
+        "current": "25692817342.96",
+        "prior": "28183464259.53"
+      },
+      "period_label": "FY2026_Q1",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "code": "current_assets_yoy_recomputed",
+      "name": "流动资产合计同比（程序复算）",
+      "value": "-3.38",
+      "unit": "%",
+      "formula": "(本期值-上年同期值)/ABS(上年同期值)*100",
+      "inputs": {
+        "current": "242450602285.25",
+        "prior": "250943551897.43"
+      },
+      "period_label": "FY2026_Q1",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "code": "accounts_payable_yoy_recomputed",
+      "name": "应付账款同比（程序复算）",
+      "value": "4.44",
+      "unit": "%",
+      "formula": "(本期值-上年同期值)/ABS(上年同期值)*100",
+      "inputs": {
+        "current": "43973231538.84",
+        "prior": "42103940920.24"
+      },
+      "period_label": "FY2026_Q1",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "code": "contract_liabilities_yoy_recomputed",
+      "name": "合同负债同比（程序复算）",
+      "value": "-18.88",
+      "unit": "%",
+      "formula": "(本期值-上年同期值)/ABS(上年同期值)*100",
+      "inputs": {
+        "current": "12335349636.15",
+        "prior": "15206576385.44"
+      },
+      "period_label": "FY2026_Q1",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "code": "current_liabilities_yoy_recomputed",
+      "name": "流动负债合计同比（程序复算）",
+      "value": "-6.34",
+      "unit": "%",
+      "formula": "(本期值-上年同期值)/ABS(上年同期值)*100",
+      "inputs": {
+        "current": "216887259395.01",
+        "prior": "231569831196.26"
+      },
+      "period_label": "FY2026_Q1",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "code": "operating_revenue_total_yoy_recomputed",
+      "name": "营业总收入同比（程序复算）",
+      "value": "3.46",
+      "unit": "%",
+      "formula": "(本期值-上年同期值)/ABS(上年同期值)*100",
+      "inputs": {
+        "current": "43080395805.39",
+        "prior": "41639050426.79"
+      },
+      "period_label": "FY2026_Q1",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "code": "operating_cost_yoy_recomputed",
+      "name": "营业成本同比（程序复算）",
+      "value": "3.44",
+      "unit": "%",
+      "formula": "(本期值-上年同期值)/ABS(上年同期值)*100",
+      "inputs": {
+        "current": "31186623197.08",
+        "prior": "30150364481.08"
+      },
+      "period_label": "FY2026_Q1",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "code": "total_profit_yoy_recomputed",
+      "name": "利润总额同比（程序复算）",
+      "value": "0.89",
+      "unit": "%",
+      "formula": "(本期值-上年同期值)/ABS(上年同期值)*100",
+      "inputs": {
+        "current": "6971863518.37",
+        "prior": "6910237979.83"
+      },
+      "period_label": "FY2026_Q1",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "code": "total_assets_yoy_recomputed",
+      "name": "总资产同比（程序复算）",
+      "value": "-2.49",
+      "unit": "%",
+      "formula": "(本期值-上年同期值)/ABS(上年同期值)*100",
+      "inputs": {
+        "current": "381613603247.63",
+        "prior": "391371999819.49"
+      },
+      "period_label": "FY2026_Q1",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "code": "total_liabilities_yoy_recomputed",
+      "name": "总负债同比（程序复算）",
+      "value": "-6.56",
+      "unit": "%",
+      "formula": "(本期值-上年同期值)/ABS(上年同期值)*100",
+      "inputs": {
+        "current": "225739949642.51",
+        "prior": "241580719144.79"
+      },
+      "period_label": "FY2026_Q1",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "code": "total_equity_yoy_recomputed",
+      "name": "所有者权益合计同比（程序复算）",
+      "value": "4.06",
+      "unit": "%",
+      "formula": "(本期值-上年同期值)/ABS(上年同期值)*100",
+      "inputs": {
+        "current": "155873653605.12",
+        "prior": "149791280674.70"
+      },
+      "period_label": "FY2026_Q1",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "code": "accounts_receivable_change",
+      "name": "应收账款变动",
+      "value": "1768859171.70",
+      "unit": "CNY",
+      "formula": "期末值-期初值",
+      "inputs": {
+        "current": "17756039770.46",
+        "prior": "15987180598.76"
+      },
+      "period_label": "FY2026_Q1",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "code": "prepayments_change",
+      "name": "预付款项变动",
+      "value": "202515453.42",
+      "unit": "CNY",
+      "formula": "期末值-期初值",
+      "inputs": {
+        "current": "1413728487.80",
+        "prior": "1211213034.38"
+      },
+      "period_label": "FY2026_Q1",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "code": "inventory_change",
+      "name": "存货变动",
+      "value": "-2490646916.57",
+      "unit": "CNY",
+      "formula": "期末值-期初值",
+      "inputs": {
+        "current": "25692817342.96",
+        "prior": "28183464259.53"
+      },
+      "period_label": "FY2026_Q1",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "code": "accounts_payable_change",
+      "name": "应付账款变动",
+      "value": "1869290618.60",
+      "unit": "CNY",
+      "formula": "期末值-期初值",
+      "inputs": {
+        "current": "43973231538.84",
+        "prior": "42103940920.24"
+      },
+      "period_label": "FY2026_Q1",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "code": "contract_liabilities_change",
+      "name": "合同负债变动",
+      "value": "-2871226749.29",
+      "unit": "CNY",
+      "formula": "期末值-期初值",
+      "inputs": {
+        "current": "12335349636.15",
+        "prior": "15206576385.44"
+      },
+      "period_label": "FY2026_Q1",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "code": "gross_margin",
+      "name": "毛利率",
+      "value": "27.42",
+      "unit": "%",
+      "formula": "(营业收入-营业成本)/营业收入*100",
+      "inputs": {
+        "revenue": "42966121178.08",
+        "operating_cost": "31186623197.08"
+      },
+      "period_label": "FY2026_Q1",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "code": "gross_margin_prior",
+      "name": "毛利率（上期）",
+      "value": "27.36",
+      "unit": "%",
+      "formula": "(营业收入-营业成本)/营业收入*100",
+      "inputs": {
+        "revenue": "41506860074.79",
+        "operating_cost": "30150364481.08"
+      },
+      "period_label": "FY2026_Q1",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "code": "net_margin",
+      "name": "净利率",
+      "value": "14.16",
+      "unit": "%",
+      "formula": "归母净利润/营业收入*100",
+      "inputs": {
+        "net_profit_parent": "6082159344.39",
+        "revenue": "42966121178.08"
+      },
+      "period_label": "FY2026_Q1",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "code": "net_margin_prior",
+      "name": "净利率（上期）",
+      "value": "14.23",
+      "unit": "%",
+      "formula": "归母净利润/营业收入*100",
+      "inputs": {
+        "net_profit_parent": "5904459443.46",
+        "revenue": "41506860074.79"
+      },
+      "period_label": "FY2026_Q1",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "code": "debt_ratio",
+      "name": "资产负债率",
+      "value": "59.15",
+      "unit": "%",
+      "formula": "总负债/总资产*100",
+      "inputs": {
+        "total_liabilities": "225739949642.51",
+        "total_assets": "381613603247.63"
+      },
+      "period_label": "FY2026_Q1",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "code": "debt_ratio_prior",
+      "name": "资产负债率（上期）",
+      "value": "61.73",
+      "unit": "%",
+      "formula": "总负债/总资产*100",
+      "inputs": {
+        "total_liabilities": "241580719144.79",
+        "total_assets": "391371999819.49"
+      },
+      "period_label": "FY2026_Q1",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "code": "current_ratio",
+      "name": "流动比率",
+      "value": "1.12",
+      "unit": "倍",
+      "formula": "流动资产/流动负债",
+      "inputs": {
+        "current_assets": "242450602285.25",
+        "current_liabilities": "216887259395.01"
+      },
+      "period_label": "FY2026_Q1",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "code": "current_ratio_prior",
+      "name": "流动比率（上期）",
+      "value": "1.08",
+      "unit": "倍",
+      "formula": "流动资产/流动负债",
+      "inputs": {
+        "current_assets": "250943551897.43",
+        "current_liabilities": "231569831196.26"
+      },
+      "period_label": "FY2026_Q1",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "code": "cash_conversion",
+      "name": "经营现金流/归母净利润",
+      "value": "1.2822",
+      "unit": "倍",
+      "formula": "经营活动现金流量净额/归母净利润",
+      "inputs": {
+        "operating_cash_flow": "7798541802.42",
+        "net_profit_parent": "6082159344.39"
+      },
+      "period_label": "FY2026_Q1",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "code": "nonrecurring_impact_ratio",
+      "name": "非经常性损益影响比例",
+      "value": "0.0625",
+      "unit": "比例",
+      "formula": "(归母净利润-扣非归母净利润)/ABS(归母净利润)",
+      "inputs": {
+        "net_profit_parent": "6082159344.39",
+        "net_profit_excl_nonrecurring": "5702183701.81"
+      },
+      "period_label": "FY2026_Q1",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "code": "working_capital_investment_change",
+      "name": "营运资金占用变动（代理口径）",
+      "value": "482663839.24",
+      "unit": "CNY",
+      "formula": "Δ应收账款+Δ存货+Δ预付款项-Δ应付账款-Δ合同负债（仅计入可得项目）",
+      "inputs": {
+        "accounts_receivable": "1768859171.70",
+        "inventory": "-2490646916.57",
+        "prepayments": "202515453.42",
+        "accounts_payable": "1869290618.60",
+        "contract_liabilities": "-2871226749.29"
+      },
+      "period_label": "FY2026_Q1",
+      "status": "ok",
+      "note": "正值表示营运资金占用增加、对现金流形成压力；该口径不等同于现金流量表披露的全部营运资金变动。"
+    },
+    {
+      "code": "profit_cash_growth_gap",
+      "name": "利润与经营现金流增速差",
+      "value": "32.12",
+      "unit": "百分点",
+      "formula": "归母净利润同比-经营活动现金流量净额同比",
+      "inputs": {
+        "profit_growth": "3.01",
+        "cash_growth": "-29.11"
+      },
+      "period_label": "FY2026_Q1",
+      "status": "ok",
+      "note": null
+    }
+  ],
+  "validations": [],
+  "findings": [
+    {
+      "rule_id": "cash_profit_growth_divergence",
+      "title": "利润增长与经营现金流下降",
+      "severity": "high",
+      "classification": "calculation",
+      "description": "FY2026_Q1归母净利润同比3.01%而经营活动现金流量净额同比-29.11%，方向背离32.12个百分点。",
+      "evidence_refs": [
+        {
+          "document_id": "22195f6590f7e015",
+          "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+          "page": 2,
+          "table_index": 0,
+          "row_index": 2,
+          "raw_label": "归属于上市公司股东的净利\n润（元）",
+          "raw_value": "3.01%",
+          "evidence_text": "归属于上市公司股东的净利\n润（元） | 6,082,159,344.39 | 5,904,459,443.46 | 3.01%",
+          "extraction_method": "pdfplumber",
+          "confidence": 0.98
+        },
+        {
+          "document_id": "22195f6590f7e015",
+          "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+          "page": 2,
+          "table_index": 0,
+          "row_index": 4,
+          "raw_label": "经营活动产生的现金流量净\n额（元）",
+          "raw_value": "-29.11%",
+          "evidence_text": "经营活动产生的现金流量净\n额（元） | 7,798,541,802.42 | 11,001,218,583.01 | -29.11%",
+          "extraction_method": "pdfplumber",
+          "confidence": 0.98
+        }
+      ],
+      "counter_evidence": "需结合预收款、应收项目、存货、税费及季节性进一步核验。",
+      "applicable_scope": "non_financial"
+    }
+  ],
+  "narrative_evidence": [
+    {
+      "category": "performance_drivers",
+      "text": "珠海格力电器股份有限公司 2026 年第一季度报告\n2\n一、主要财务数据\n（一） 主要会计数据和财务指标\n公司是否需追溯调整或重述以前年度会计数据\n□是 否\n项目 本报告期 上年同期 本报告期比上年同期增减\n营业收入（元） 42,966,121,178.08 41,506,860,074.79 3.52%\n归属于上市公司股东的净利\n润（元） 6,082,159,344.39 5,904,459,443.46 3.01%\n归属于上市公司股东的扣除\n非经常性损益的净利润\n（元）\n5,702,183,701.81 5,717,342,878.89 -0.27%\n经营活动产生的现金流量净\n额（元） 7,798,541,802.42 11,001,218,583.01 -29.11%\n基本每股收益（元/股） 1.09 1.07 1.87%\n稀释每股收益（元/股） 1.09 1.07 1.87%\n加权平均净资产收益率 4.07% 4.21% 下降 0.14 个百分点\n项目 本报告期末 上年度末 本报告期末比上年度末增减\n总资产（元） 381,613,603,247.63 391,371,999,819.49 -2.49%\n归属于上市公",
+      "score": 7.15,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 2,
+        "table_index": null,
+        "row_index": null,
+        "raw_label": null,
+        "raw_value": null,
+        "evidence_text": "珠海格力电器股份有限公司 2026 年第一季度报告\n2\n一、主要财务数据\n（一） 主要会计数据和财务指标\n公司是否需追溯调整或重述以前年度会计数据\n□是 否\n项目 本报告期 上年同期 本报告期比上年同期增减\n营业收入（元） 42,966,121,178.08 41,506,860,074.79 3.52%\n归属于上市公司股东的净利\n润（元） 6,082,159,344.39 5,904,459,443.46 3.01%\n归属于上市公司股东的扣除\n非经常性损益的净利润\n（元）\n5,702,183,701.81 5,717,342,878.89 -0.27%\n经营活动产生的现金流量净\n额（元） 7,798,541,802.42 11,001,218,583.01 -29.11%\n基本每股收益（元/股） 1.09 1.07 1.87%\n稀释每股收益（元/股） 1.09 1.07 1.87%\n加权平均净资产收益率 4.07% 4.21% 下降 0.14 个百分点\n项目 本报告期末 上年度末 本报告期末比上年度末增减\n总资产（元） 381,613,603,247.63 391,371,999,819.49 -2.49%\n归属于上市公",
+        "extraction_method": "pypdf",
+        "confidence": 0.9960685483870967
+      }
+    },
+    {
+      "category": "performance_drivers",
+      "text": "-582,541,895.52 125,657,726.14\n专项储备 35,551,361.02 34,898,349.34\n盈余公积 1,234,137,1\n-582,541,895.52 125,657,726.14\n专项储备 35,551,361.02 34,898,349.34\n盈余公积 1,234,137,135.52 1,234,137,135.52\n一般风险准备 512,918,996.50 512,918,996.50\n未分配利润 144,525,379,226.88 138,443,151,145.00\n归属于母公司所有者权益合计 152,024,259,599.56 145,929,297,804.02\n少数股东权益 3,849,394,005.56 3,861,982,870.68\n所有者权益合计 155,873,653,605.12 149,791,280,674.70\n负债和所有者权益总计 381,613,603,247.63 391,371,999,819.49\n法定代表人：董明珠 主管会计工作负责人：廖建雄 会计机构负责人：刘炎姿\n2、合并利润表\n单位：元\n项目 本期发生额 上期发生额\n一、营业总收入 43,080,395,805.39 41,639,050,426.79\n其中：营业收入 42,966,121,178.08 41,506,860,074",
+      "score": 5.5,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 6,
+        "table_index": null,
+        "row_index": null,
+        "raw_label": null,
+        "raw_value": null,
+        "evidence_text": "-582,541,895.52 125,657,726.14\n专项储备 35,551,361.02 34,898,349.34\n盈余公积 1,234,137,1\n-582,541,895.52 125,657,726.14\n专项储备 35,551,361.02 34,898,349.34\n盈余公积 1,234,137,135.52 1,234,137,135.52\n一般风险准备 512,918,996.50 512,918,996.50\n未分配利润 144,525,379,226.88 138,443,151,145.00\n归属于母公司所有者权益合计 152,024,259,599.56 145,929,297,804.02\n少数股东权益 3,849,394,005.56 3,861,982,870.68\n所有者权益合计 155,873,653,605.12 149,791,280,674.70\n负债和所有者权益总计 381,613,603,247.63 391,371,999,819.49\n法定代表人：董明珠 主管会计工作负责人：廖建雄 会计机构负责人：刘炎姿\n2、合并利润表\n单位：元\n项目 本期发生额 上期发生额\n一、营业总收入 43,080,395,805.39 41,639,050,426.79\n其中：营业收入 42,966,121,178.08 41,506,860,074",
+        "extraction_method": "pypdf",
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "performance_drivers",
+      "text": "珠海格力电器股份有限公司 2026 年第一季度报告\n7\n投资收益（损失以“－”号填列） 79,043,234.23 -33,237,369.69\n其中：对联营企业和合营企业的投资收\n益 28,556,927.52 27,247,678.33\n以摊余成本计量的金融资产终止\n确认收益\n净敞口套期收益（损失以“－”号填列）\n公允价值变动收益（损失以“－”号填列） 275,874,000.96 102,865,175.81\n信用减值损失（损失以“-”号填列） 59,552,468.13 -66,765,740.91\n资产减值损失（损失以“-”号填列） -45,783,539.16 -124,822,863.48\n资产处置收益（损失以“-”号填列） -7,765,257.57 20,841,045.92\n三、营业利润（亏损以“－”号填列） 6,981,291,396.83 6,913,045,137.31\n加：营业外收入 6,089,425.74 7,681,343.63\n减：营业外支出 15,517,304.20 10,488,501.11\n四、利润总额（亏损总额以“－”号填列） 6,971,863,518.37 6,910,237",
+      "score": 5.15,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 7,
+        "table_index": null,
+        "row_index": null,
+        "raw_label": null,
+        "raw_value": null,
+        "evidence_text": "珠海格力电器股份有限公司 2026 年第一季度报告\n7\n投资收益（损失以“－”号填列） 79,043,234.23 -33,237,369.69\n其中：对联营企业和合营企业的投资收\n益 28,556,927.52 27,247,678.33\n以摊余成本计量的金融资产终止\n确认收益\n净敞口套期收益（损失以“－”号填列）\n公允价值变动收益（损失以“－”号填列） 275,874,000.96 102,865,175.81\n信用减值损失（损失以“-”号填列） 59,552,468.13 -66,765,740.91\n资产减值损失（损失以“-”号填列） -45,783,539.16 -124,822,863.48\n资产处置收益（损失以“-”号填列） -7,765,257.57 20,841,045.92\n三、营业利润（亏损以“－”号填列） 6,981,291,396.83 6,913,045,137.31\n加：营业外收入 6,089,425.74 7,681,343.63\n减：营业外支出 15,517,304.20 10,488,501.11\n四、利润总额（亏损总额以“－”号填列） 6,971,863,518.37 6,910,237",
+        "extraction_method": "pypdf",
+        "confidence": 0.9966035271064664
+      }
+    },
+    {
+      "category": "cash_flow",
+      "text": "资 14,005,318,332.29 6,496,151,873.03\n预付款项 1,413,728,487.80 1,211,213,034.38\n其他应收\n资 14,005,318,332.29 6,496,151,873.03\n预付款项 1,413,728,487.80 1,211,213,034.38\n其他应收款 348,517,816.75 327,529,462.48\n其中：应收利息\n应收股利\n买入返售金融资产 4,800,560,684.94\n存货 25,692,817,342.96 28,183,464,259.53\n其中：数据资源\n合同资产 369,333,112.36 399,828,954.57",
+      "score": 5.8102,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 4,
+        "table_index": null,
+        "row_index": null,
+        "raw_label": null,
+        "raw_value": null,
+        "evidence_text": "资 14,005,318,332.29 6,496,151,873.03\n预付款项 1,413,728,487.80 1,211,213,034.38\n其他应收\n资 14,005,318,332.29 6,496,151,873.03\n预付款项 1,413,728,487.80 1,211,213,034.38\n其他应收款 348,517,816.75 327,529,462.48\n其中：应收利息\n应收股利\n买入返售金融资产 4,800,560,684.94\n存货 25,692,817,342.96 28,183,464,259.53\n其中：数据资源\n合同资产 369,333,112.36 399,828,954.57",
+        "extraction_method": "pypdf",
+        "confidence": 0.9916666666666667
+      }
+    },
+    {
+      "category": "cash_flow",
+      "text": ".66\n客户贷款及垫款净增加额 -5,891,999,300.00 -23,290,000.00\n存放中央银行和同业款项净增加额 -233,013,515.75\n.66\n客户贷款及垫款净增加额 -5,891,999,300.00 -23,290,000.00\n存放中央银行和同业款项净增加额 -233,013,515.75 -526,346,005.31\n拆出资金净增加额\n支付利息、手续费及佣金的现金 1,041,103.22 1,087,981.40\n支付给职工以及为职工支付的现金 3,133,203,478.39 3,322,992,594.80\n支付的各项税费 2,488,455,377.06 3,587,806,476.08\n支付其他与经营活动有关的现金 2,039,707,362.37 2,267,261,099.88\n经营活动现金流出小计 24,798,020,791.93 33,181,064,044.51\n经营活动产生的现金流量净额 7,798,541,802.42 11,001,218,583.01\n二、投资活动产生的现金流量：\n收回投资收到的现金 28,460,816,603.68 7,060,391,445.18\n取得投资收益收到的现金 103,416,702.06 19,284,131.42\n处置固定资产、无形资产和其他长\n期资产收回的现金净额 47,634,1",
+      "score": 5.15,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 8,
+        "table_index": null,
+        "row_index": null,
+        "raw_label": null,
+        "raw_value": null,
+        "evidence_text": ".66\n客户贷款及垫款净增加额 -5,891,999,300.00 -23,290,000.00\n存放中央银行和同业款项净增加额 -233,013,515.75\n.66\n客户贷款及垫款净增加额 -5,891,999,300.00 -23,290,000.00\n存放中央银行和同业款项净增加额 -233,013,515.75 -526,346,005.31\n拆出资金净增加额\n支付利息、手续费及佣金的现金 1,041,103.22 1,087,981.40\n支付给职工以及为职工支付的现金 3,133,203,478.39 3,322,992,594.80\n支付的各项税费 2,488,455,377.06 3,587,806,476.08\n支付其他与经营活动有关的现金 2,039,707,362.37 2,267,261,099.88\n经营活动现金流出小计 24,798,020,791.93 33,181,064,044.51\n经营活动产生的现金流量净额 7,798,541,802.42 11,001,218,583.01\n二、投资活动产生的现金流量：\n收回投资收到的现金 28,460,816,603.68 7,060,391,445.18\n取得投资收益收到的现金 103,416,702.06 19,284,131.42\n处置固定资产、无形资产和其他长\n期资产收回的现金净额 47,634,1",
+        "extraction_method": "pypdf",
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "cash_flow",
+      "text": "珠海格力电器股份有限公司 2026 年第一季度报告\n8\n3、合并现金流量表\n单位：元\n项目 本期发生额 上期发生额\n一、经营活动产生的现金流量：\n销售商品、提供劳务收到的现金 31,097,547,962.32 42,181,934,795.31\n客户存款和同业存放款项净增加额 -12,282,689.86 -34,476,086.55\n向中央银行借款净增加额\n向其他金融机构拆入资金净增加额\n收取利息、手续费及佣金的现金 64,837,645.03 40,956,143.94\n拆入资金净增加额\n回购业务资金净增加额\n收到的税费返还 830,460,886.97 911,408,384.14\n收到其他与经营活动有关的现金 615,998,789.89 1,082,459,390.68\n经营活动现金流入小计 32,596,562,594.35 44,182,282,627.52\n购买商品、接受劳务支付的现金 23,260,626,286.64 24,551,551,897.66\n客户贷款及垫款净增加额 -5,891,999,300.00 -23,290,000.00\n存放中央银行和同业款项净增加额 -233,013,515.75",
+      "score": 5.15,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 8,
+        "table_index": null,
+        "row_index": null,
+        "raw_label": null,
+        "raw_value": null,
+        "evidence_text": "珠海格力电器股份有限公司 2026 年第一季度报告\n8\n3、合并现金流量表\n单位：元\n项目 本期发生额 上期发生额\n一、经营活动产生的现金流量：\n销售商品、提供劳务收到的现金 31,097,547,962.32 42,181,934,795.31\n客户存款和同业存放款项净增加额 -12,282,689.86 -34,476,086.55\n向中央银行借款净增加额\n向其他金融机构拆入资金净增加额\n收取利息、手续费及佣金的现金 64,837,645.03 40,956,143.94\n拆入资金净增加额\n回购业务资金净增加额\n收到的税费返还 830,460,886.97 911,408,384.14\n收到其他与经营活动有关的现金 615,998,789.89 1,082,459,390.68\n经营活动现金流入小计 32,596,562,594.35 44,182,282,627.52\n购买商品、接受劳务支付的现金 23,260,626,286.64 24,551,551,897.66\n客户贷款及垫款净增加额 -5,891,999,300.00 -23,290,000.00\n存放中央银行和同业款项净增加额 -233,013,515.75",
+        "extraction_method": "pypdf",
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "nonrecurring",
+      "text": "告期末 上年度末 本报告期末比上年度末增减\n总资产（元） 381,613,603,247.63 391,371,999,819.49 -2.49%\n归属于上市公\n告期末 上年度末 本报告期末比上年度末增减\n总资产（元） 381,613,603,247.63 391,371,999,819.49 -2.49%\n归属于上市公司股东的所有\n者权益（元） 152,024,259,599.56 145,929,297,804.02 4.18%\n（二） 非经常性损益项目和金额\n适用 □不适用\n单位：元\n项目 本报告期金额\n非流动性资产处置损益（包括已计提资产减值准备的冲销部\n分） -10,646,052.93\n计入当期损益的政府补助（与公司正常经营业务密切相关、\n符合国家政策规定、按照确定的标准享有、对公司损益产生\n持续影响的政府补助除外）\n90,571,383.49\n除同公司正常经营业务相关的有效套期保值业务外，非金融\n企业持有金融资产和金融负债产生的公允价值变动损益以及\n处置金融资产和金融负债产生的损益\n352,978,052.06\n单独进行减值测试的应收款项减值准备转回 2,064,710.20\n除上述各项之外的其他营业外收入和支出 -6,741,017.94\n其他符合非经常性损益定义的损益项目 26,021,363.79\n减：所得税影响额 71,598,122.82\n少数股东权益影响额",
+      "score": 10.2,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 2,
+        "table_index": null,
+        "row_index": null,
+        "raw_label": null,
+        "raw_value": null,
+        "evidence_text": "告期末 上年度末 本报告期末比上年度末增减\n总资产（元） 381,613,603,247.63 391,371,999,819.49 -2.49%\n归属于上市公\n告期末 上年度末 本报告期末比上年度末增减\n总资产（元） 381,613,603,247.63 391,371,999,819.49 -2.49%\n归属于上市公司股东的所有\n者权益（元） 152,024,259,599.56 145,929,297,804.02 4.18%\n（二） 非经常性损益项目和金额\n适用 □不适用\n单位：元\n项目 本报告期金额\n非流动性资产处置损益（包括已计提资产减值准备的冲销部\n分） -10,646,052.93\n计入当期损益的政府补助（与公司正常经营业务密切相关、\n符合国家政策规定、按照确定的标准享有、对公司损益产生\n持续影响的政府补助除外）\n90,571,383.49\n除同公司正常经营业务相关的有效套期保值业务外，非金融\n企业持有金融资产和金融负债产生的公允价值变动损益以及\n处置金融资产和金融负债产生的损益\n352,978,052.06\n单独进行减值测试的应收款项减值准备转回 2,064,710.20\n除上述各项之外的其他营业外收入和支出 -6,741,017.94\n其他符合非经常性损益定义的损益项目 26,021,363.79\n减：所得税影响额 71,598,122.82\n少数股东权益影响额",
+        "extraction_method": "pypdf",
+        "confidence": 0.9960685483870967
+      }
+    },
+    {
+      "category": "nonrecurring",
+      "text": "珠海格力电器股份有限公司 2026 年第一季度报告\n7\n投资收益（损失以“－”号填列） 79,043,234.23 -33,237,369.69\n其中：对联营企业和合营企业的投资收\n益 28,556,927.52 27,247,678.33\n以摊余成本计量的金融资产终止\n确认收益\n净敞口套期收益（损失以“－”号填列）\n公允价值变动收益（损失以“－”号填列） 275,874,000.96 102,865,175.81\n信用减值损失（损失以“-”号填列） 59,552,468.13 -66,765,740.91\n资产减值损失（损失以“-”号填列） -45,783,539.16 -124,822,863.48\n资产处置收益（损失以“-”号填列） -7,765,257.57 20,841,045.92\n三、营业利润（亏损以“－”号填列） 6,981,291,396.83 6,913,045,137.31\n加：营业外收入 6,089,425.74 7,681,343.63\n减：营业外支出 15,517,304.20 10,488,501.11\n四、利润总额（亏损总额以“－”号填列） 6,971,863,518.37 6,910,237",
+      "score": 4.8,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 7,
+        "table_index": null,
+        "row_index": null,
+        "raw_label": null,
+        "raw_value": null,
+        "evidence_text": "珠海格力电器股份有限公司 2026 年第一季度报告\n7\n投资收益（损失以“－”号填列） 79,043,234.23 -33,237,369.69\n其中：对联营企业和合营企业的投资收\n益 28,556,927.52 27,247,678.33\n以摊余成本计量的金融资产终止\n确认收益\n净敞口套期收益（损失以“－”号填列）\n公允价值变动收益（损失以“－”号填列） 275,874,000.96 102,865,175.81\n信用减值损失（损失以“-”号填列） 59,552,468.13 -66,765,740.91\n资产减值损失（损失以“-”号填列） -45,783,539.16 -124,822,863.48\n资产处置收益（损失以“-”号填列） -7,765,257.57 20,841,045.92\n三、营业利润（亏损以“－”号填列） 6,981,291,396.83 6,913,045,137.31\n加：营业外收入 6,089,425.74 7,681,343.63\n减：营业外支出 15,517,304.20 10,488,501.11\n四、利润总额（亏损总额以“－”号填列） 6,971,863,518.37 6,910,237",
+        "extraction_method": "pypdf",
+        "confidence": 0.9966035271064664
+      }
+    },
+    {
+      "category": "nonrecurring",
+      "text": "出 -6,741,017.94\n其他符合非经常性损益定义的损益项目 26,021,363.79\n减：所得税影响额 71,598,122.82\n少数股东权益影响额\n出 -6,741,017.94\n其他符合非经常性损益定义的损益项目 26,021,363.79\n减：所得税影响额 71,598,122.82\n少数股东权益影响额（税后） 2,674,673.27\n合计 379,975,642.58\n其他符合非经常性损益定义的损益项目的具体情况\n适用 □不适用\n项目 涉及金额（元） 原因\n其他符合非经常性损益定义的损益项目 26,021,363.79 个税手续费返还及重点群体等税收优惠",
+      "score": 3.4562,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 2,
+        "table_index": null,
+        "row_index": null,
+        "raw_label": null,
+        "raw_value": null,
+        "evidence_text": "出 -6,741,017.94\n其他符合非经常性损益定义的损益项目 26,021,363.79\n减：所得税影响额 71,598,122.82\n少数股东权益影响额\n出 -6,741,017.94\n其他符合非经常性损益定义的损益项目 26,021,363.79\n减：所得税影响额 71,598,122.82\n少数股东权益影响额（税后） 2,674,673.27\n合计 379,975,642.58\n其他符合非经常性损益定义的损益项目的具体情况\n适用 □不适用\n项目 涉及金额（元） 原因\n其他符合非经常性损益定义的损益项目 26,021,363.79 个税手续费返还及重点群体等税收优惠",
+        "extraction_method": "pypdf",
+        "confidence": 0.9960685483870967
+      }
+    },
+    {
+      "category": "accounting_policy",
+      "text": "珠海格力电器股份有限公司 2026 年第一季度报告\n2\n一、主要财务数据\n（一） 主要会计数据和财务指标\n公司是否需追溯调整或重述以前年度会计数据\n□是 否\n项目 本报告期 上年同期 本报告期比上年同期增减\n营业收入（元） 42,966,121,178.08 41,506,860,074.79 3.52%\n归属于上市公司股东的净利\n润（元） 6,082,159,344.39 5,904,459,443.46 3.01%\n归属于上市公司股东的扣除\n非经常性损益的净利润\n（元）\n5,702,183,701.81 5,717,342,878.89 -0.27%\n经营活动产生的现金流量净\n额（元） 7,798,541,802.42 11,001,218,583.01 -29.11%\n基本每股收益（元/股） 1.09 1.07 1.87%\n稀释每股收益（元/股） 1.09 1.07 1.87%\n加权平均净资产收益率 4.07% 4.21% 下降 0.14 个百分点\n项目 本报告期末 上年度末 本报告期末比上年度末增减\n总资产（元） 381,613,603,247.63 391,371,999,819.49 -2.49%\n归属于上市公",
+      "score": 4.8,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 2,
+        "table_index": null,
+        "row_index": null,
+        "raw_label": null,
+        "raw_value": null,
+        "evidence_text": "珠海格力电器股份有限公司 2026 年第一季度报告\n2\n一、主要财务数据\n（一） 主要会计数据和财务指标\n公司是否需追溯调整或重述以前年度会计数据\n□是 否\n项目 本报告期 上年同期 本报告期比上年同期增减\n营业收入（元） 42,966,121,178.08 41,506,860,074.79 3.52%\n归属于上市公司股东的净利\n润（元） 6,082,159,344.39 5,904,459,443.46 3.01%\n归属于上市公司股东的扣除\n非经常性损益的净利润\n（元）\n5,702,183,701.81 5,717,342,878.89 -0.27%\n经营活动产生的现金流量净\n额（元） 7,798,541,802.42 11,001,218,583.01 -29.11%\n基本每股收益（元/股） 1.09 1.07 1.87%\n稀释每股收益（元/股） 1.09 1.07 1.87%\n加权平均净资产收益率 4.07% 4.21% 下降 0.14 个百分点\n项目 本报告期末 上年度末 本报告期末比上年度末增减\n总资产（元） 381,613,603,247.63 391,371,999,819.49 -2.49%\n归属于上市公",
+        "extraction_method": "pypdf",
+        "confidence": 0.9960685483870967
+      }
+    },
+    {
+      "category": "risk",
+      "text": "有者的其他综合收益的税后净额 -708,126,695.49 -494,711,094.91\n（一）不能重分类进损益的其他综合收益 -642,206,974.1\n有者的其他综合收益的税后净额 -708,126,695.49 -494,711,094.91\n（一）不能重分类进损益的其他综合收益 -642,206,974.17 -496,758,316.92\n1.重新计量设定受益计划变动额\n2.权益法下不能转损益的其他综合收益 -322,066,528.07 -318,124,655.56\n3.其他权益工具投资公允价值变动 -320,140,446.10 -178,633,661.36\n4.企业自身信用风险公允价值变动\n5.其他\n（二）将重分类进损益的其他综合收益 -65,919,721.32 2,047,222.01\n1.权益法下可转损益的其他综合收益 -34,585.74\n2.其他债权投资公允价值变动 -596,487.09 -6,590,356.50\n3.金融资产重分类计入其他综合收益的金额\n4.其他债权投资信用减值准备 -5,838,020.79 -1,478,687.69\n5.现金流量套期储备 -17,998,067.50 8,893,851.25\n6.外币财务报表折算差额 -41,487,145.94 1,257,000.69\n7.其他\n归属于少数股东的其他综合收益的税后净额",
+      "score": 4.8,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 7,
+        "table_index": null,
+        "row_index": null,
+        "raw_label": null,
+        "raw_value": null,
+        "evidence_text": "有者的其他综合收益的税后净额 -708,126,695.49 -494,711,094.91\n（一）不能重分类进损益的其他综合收益 -642,206,974.1\n有者的其他综合收益的税后净额 -708,126,695.49 -494,711,094.91\n（一）不能重分类进损益的其他综合收益 -642,206,974.17 -496,758,316.92\n1.重新计量设定受益计划变动额\n2.权益法下不能转损益的其他综合收益 -322,066,528.07 -318,124,655.56\n3.其他权益工具投资公允价值变动 -320,140,446.10 -178,633,661.36\n4.企业自身信用风险公允价值变动\n5.其他\n（二）将重分类进损益的其他综合收益 -65,919,721.32 2,047,222.01\n1.权益法下可转损益的其他综合收益 -34,585.74\n2.其他债权投资公允价值变动 -596,487.09 -6,590,356.50\n3.金融资产重分类计入其他综合收益的金额\n4.其他债权投资信用减值准备 -5,838,020.79 -1,478,687.69\n5.现金流量套期储备 -17,998,067.50 8,893,851.25\n6.外币财务报表折算差额 -41,487,145.94 1,257,000.69\n7.其他\n归属于少数股东的其他综合收益的税后净额",
+        "extraction_method": "pypdf",
+        "confidence": 0.9966035271064664
+      }
+    },
+    {
+      "category": "risk",
+      "text": "告期末 上年度末 本报告期末比上年度末增减\n总资产（元） 381,613,603,247.63 391,371,999,819.49 -2.49%\n归属于上市公\n告期末 上年度末 本报告期末比上年度末增减\n总资产（元） 381,613,603,247.63 391,371,999,819.49 -2.49%\n归属于上市公司股东的所有\n者权益（元） 152,024,259,599.56 145,929,297,804.02 4.18%\n（二） 非经常性损益项目和金额\n适用 □不适用\n单位：元\n项目 本报告期金额\n非流动性资产处置损益（包括已计提资产减值准备的冲销部\n分） -10,646,052.93\n计入当期损益的政府补助（与公司正常经营业务密切相关、\n符合国家政策规定、按照确定的标准享有、对公司损益产生\n持续影响的政府补助除外）\n90,571,383.49\n除同公司正常经营业务相关的有效套期保值业务外，非金融\n企业持有金融资产和金融负债产生的公允价值变动损益以及\n处置金融资产和金融负债产生的损益\n352,978,052.06\n单独进行减值测试的应收款项减值准备转回 2,064,710.20\n除上述各项之外的其他营业外收入和支出 -6,741,017.94\n其他符合非经常性损益定义的损益项目 26,021,363.79\n减：所得税影响额 71,598,122.82\n少数股东权益影响额",
+      "score": 3.15,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 2,
+        "table_index": null,
+        "row_index": null,
+        "raw_label": null,
+        "raw_value": null,
+        "evidence_text": "告期末 上年度末 本报告期末比上年度末增减\n总资产（元） 381,613,603,247.63 391,371,999,819.49 -2.49%\n归属于上市公\n告期末 上年度末 本报告期末比上年度末增减\n总资产（元） 381,613,603,247.63 391,371,999,819.49 -2.49%\n归属于上市公司股东的所有\n者权益（元） 152,024,259,599.56 145,929,297,804.02 4.18%\n（二） 非经常性损益项目和金额\n适用 □不适用\n单位：元\n项目 本报告期金额\n非流动性资产处置损益（包括已计提资产减值准备的冲销部\n分） -10,646,052.93\n计入当期损益的政府补助（与公司正常经营业务密切相关、\n符合国家政策规定、按照确定的标准享有、对公司损益产生\n持续影响的政府补助除外）\n90,571,383.49\n除同公司正常经营业务相关的有效套期保值业务外，非金融\n企业持有金融资产和金融负债产生的公允价值变动损益以及\n处置金融资产和金融负债产生的损益\n352,978,052.06\n单独进行减值测试的应收款项减值准备转回 2,064,710.20\n除上述各项之外的其他营业外收入和支出 -6,741,017.94\n其他符合非经常性损益定义的损益项目 26,021,363.79\n减：所得税影响额 71,598,122.82\n少数股东权益影响额",
+        "extraction_method": "pypdf",
+        "confidence": 0.9960685483870967
+      }
+    },
+    {
+      "category": "risk",
+      "text": "珠海格力电器股份有限公司 2026 年第一季度报告\n7\n投资收益（损失以“－”号填列） 79,043,234.23 -33,237,369.69\n其中：对联营企业和合营企业的投资收\n益 28,556,927.52 27,247,678.33\n以摊余成本计量的金融资产终止\n确认收益\n净敞口套期收益（损失以“－”号填列）\n公允价值变动收益（损失以“－”号填列） 275,874,000.96 102,865,175.81\n信用减值损失（损失以“-”号填列） 59,552,468.13 -66,765,740.91\n资产减值损失（损失以“-”号填列） -45,783,539.16 -124,822,863.48\n资产处置收益（损失以“-”号填列） -7,765,257.57 20,841,045.92\n三、营业利润（亏损以“－”号填列） 6,981,291,396.83 6,913,045,137.31\n加：营业外收入 6,089,425.74 7,681,343.63\n减：营业外支出 15,517,304.20 10,488,501.11\n四、利润总额（亏损总额以“－”号填列） 6,971,863,518.37 6,910,237",
+      "score": 2.8,
+      "source": {
+        "document_id": "22195f6590f7e015",
+        "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+        "page": 7,
+        "table_index": null,
+        "row_index": null,
+        "raw_label": null,
+        "raw_value": null,
+        "evidence_text": "珠海格力电器股份有限公司 2026 年第一季度报告\n7\n投资收益（损失以“－”号填列） 79,043,234.23 -33,237,369.69\n其中：对联营企业和合营企业的投资收\n益 28,556,927.52 27,247,678.33\n以摊余成本计量的金融资产终止\n确认收益\n净敞口套期收益（损失以“－”号填列）\n公允价值变动收益（损失以“－”号填列） 275,874,000.96 102,865,175.81\n信用减值损失（损失以“-”号填列） 59,552,468.13 -66,765,740.91\n资产减值损失（损失以“-”号填列） -45,783,539.16 -124,822,863.48\n资产处置收益（损失以“-”号填列） -7,765,257.57 20,841,045.92\n三、营业利润（亏损以“－”号填列） 6,981,291,396.83 6,913,045,137.31\n加：营业外收入 6,089,425.74 7,681,343.63\n减：营业外支出 15,517,304.20 10,488,501.11\n四、利润总额（亏损总额以“－”号填列） 6,971,863,518.37 6,910,237",
+        "extraction_method": "pypdf",
+        "confidence": 0.9966035271064664
+      }
+    }
+  ],
+  "nonrecurring_items": [],
+  "external_evidence": [],
+  "health_assessment": {
+    "profile": "non_financial",
+    "score": "82.00",
+    "grade": "B",
+    "status": "complete",
+    "coverage_ratio": "1.00",
+    "methodology": "非金融企业内部评级：利润现金含量、收入增长、利润增长、资产负债率和非经常性损益影响，共100分。",
+    "components": [
+      {
+        "code": "cash_conversion",
+        "name": "利润现金含量",
+        "score": "25",
+        "max_score": "25",
+        "observed_value": "1.2822倍",
+        "rationale": "经营现金流/归母净利润：≥1得满分，0.8—1得20分，0.5—0.8得10分。",
+        "evidence_refs": [
+          {
+            "calculation": {
+              "code": "cash_conversion",
+              "name": "经营现金流/归母净利润",
+              "value": "1.2822",
+              "unit": "倍",
+              "formula": "经营活动现金流量净额/归母净利润",
+              "inputs": {
+                "operating_cash_flow": "7798541802.42",
+                "net_profit_parent": "6082159344.39"
+              },
+              "period_label": "FY2026_Q1",
+              "status": "ok",
+              "note": null
+            }
+          }
+        ]
+      },
+      {
+        "code": "revenue_growth",
+        "name": "营业收入增长",
+        "score": "15",
+        "max_score": "20",
+        "observed_value": "3.52%",
+        "rationale": "同比≥10%得满分，0—10%得15分，非正增长得5分。",
+        "evidence_refs": [
+          {
+            "document_id": "22195f6590f7e015",
+            "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+            "page": 2,
+            "table_index": 0,
+            "row_index": 1,
+            "raw_label": "营业收入（元）",
+            "raw_value": "3.52%",
+            "evidence_text": "营业收入（元） | 42,966,121,178.08 | 41,506,860,074.79 | 3.52%",
+            "extraction_method": "pdfplumber",
+            "confidence": 0.98
+          }
+        ]
+      },
+      {
+        "code": "net_profit_parent_growth",
+        "name": "归母净利润增长",
+        "score": "15",
+        "max_score": "20",
+        "observed_value": "3.01%",
+        "rationale": "同比≥10%得满分，0—10%得15分，非正增长得5分。",
+        "evidence_refs": [
+          {
+            "document_id": "22195f6590f7e015",
+            "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+            "page": 2,
+            "table_index": 0,
+            "row_index": 2,
+            "raw_label": "归属于上市公司股东的净利\n润（元）",
+            "raw_value": "3.01%",
+            "evidence_text": "归属于上市公司股东的净利\n润（元） | 6,082,159,344.39 | 5,904,459,443.46 | 3.01%",
+            "extraction_method": "pdfplumber",
+            "confidence": 0.98
+          }
+        ]
+      },
+      {
+        "code": "debt_ratio",
+        "name": "资产负债率",
+        "score": "12",
+        "max_score": "20",
+        "observed_value": "59.15%",
+        "rationale": "资产负债率≤50%得满分，50%—70%得12分。行业差异需人工复核。",
+        "evidence_refs": [
+          {
+            "document_id": "22195f6590f7e015",
+            "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+            "page": 2,
+            "table_index": 0,
+            "row_index": 9,
+            "raw_label": "总资产（元）",
+            "raw_value": "381,613,603,247.63",
+            "evidence_text": "总资产（元） | 381,613,603,247.63 | 391,371,999,819.49 | -2.49%",
+            "extraction_method": "pdfplumber",
+            "confidence": 0.98
+          },
+          {
+            "document_id": "22195f6590f7e015",
+            "file_name": "000651_格力电器_2026Q1_第一季度报告.pdf",
+            "page": 6,
+            "table_index": 0,
+            "row_index": 9,
+            "raw_label": "负债合计",
+            "raw_value": "225,739,949,642.51",
+            "evidence_text": "负债合计 | 225,739,949,642.51 | 241,580,719,144.79",
+            "extraction_method": "pdfplumber",
+            "confidence": 0.98
+          }
+        ]
+      },
+      {
+        "code": "nonrecurring_impact",
+        "name": "非经常性损益影响",
+        "score": "15",
+        "max_score": "15",
+        "observed_value": "0.0625",
+        "rationale": "绝对影响比例≤0.1得满分，0.1—0.3得8分。",
+        "evidence_refs": [
+          {
+            "calculation": {
+              "code": "nonrecurring_impact_ratio",
+              "name": "非经常性损益影响比例",
+              "value": "0.0625",
+              "unit": "比例",
+              "formula": "(归母净利润-扣非归母净利润)/ABS(归母净利润)",
+              "inputs": {
+                "net_profit_parent": "6082159344.39",
+                "net_profit_excl_nonrecurring": "5702183701.81"
+              },
+              "period_label": "FY2026_Q1",
+              "status": "ok",
+              "note": null
+            }
+          }
+        ]
+      }
+    ],
+    "limitations": [
+      "该评级是可解释的内部筛查意见，不是信用评级或投资建议。"
+    ]
+  },
+  "llm_analysis": {
+    "schema_version": "financial-report-v1",
+    "summary_text": "格力电器2026Q1营业收入429.66亿元同比+3.52%，归母净利润60.82亿元同比+3.01%，但扣非归母净利润57.02亿元同比-0.27%，非经常性损益影响6.25%，利润增长质量需关注。经营活动现金流量净额77.99亿元同比-29.11%，与利润增速背离32.12个百分点，规则发现提示利润与现金流方向背离。",
+    "performance_analysis": "披露事实：营业收入429.66亿元（同比+3.52%），营业成本311.87亿元（同比+3.44%），毛利率27.42%（上期27.36%）基本持平；归母净利润60.82亿元（同比+3.01%），净利率14.16%（上期14.23%）略有下降；扣非归母净利润57.02亿元（同比-0.27%）。加权平均ROE 4.07%，较上期4.21%下降0.14个百分点。资产负债率59.15%（上期61.73%），流动比率1.12倍（上期1.08倍），短期偿债指标改善。应收账款177.56亿元（同比+11.06%），存货256.93亿元（同比-8.84%），合同负债123.35亿元（同比-18.88%）。财报未明确披露上述变动原因，建议进一步核查（第2、4、5、6、7页）。",
+    "nonrecurring_analysis": "披露事实：非经常性损益合计3.80亿元，主要项目为公允价值变动及处置金融资产损益3.53亿元、政府补助0.91亿元、其他0.26亿元、资产处置损益-0.11亿元（第2页）。程序计算：非经常性损益影响比例6.25%，扣非同比-0.27%。归母与扣非差异3.80亿元，占比不高，利润对非经常性损益依赖程度有限，未识别显著扰动迹象（第2、7页）。",
+    "accounting_change_analysis": "披露事实：报告第2页明确勾选“公司是否需追溯调整或重述以前年度会计数据——否”，未披露会计政策或会计估计变更，亦无追溯调整、重述事项。程序计算：本期营业收入、归母净利润等同比数据均按原口径列示，未见因口径变化产生的调整项。分析推论：基于现有附注与政策证据，本期未识别会计政策、会计估计及追溯调整事项。建议后续结合完整财务报表附注进一步核查（第2页）。",
+    "cash_flow_divergence_analysis": "披露事实：归母净利润60.82亿元（同比+3.01%），经营现金流净额77.99亿元（同比-29.11%）（第2页）。程序计算：现金含量1.28倍，仍大于1；利润与现金流增速差32.12个百分点，方向背离；营运资金占用变动+4.83亿元，其中合同负债减少28.71亿元、应收账款增加17.69亿元为主要占用项，存货减少24.91亿元部分对冲。分析推论：销售商品收到现金由421.82亿元降至310.98亿元（第8页），是现金流下滑主因，或与预收/合同负债结转及回款节奏有关。核查建议：结合合同负债、应收及税费、季节性进一步核验（第2、4、5、8页）。",
+    "other_risk_analysis": "程序复算显示：应收账款同比+11.06%，明显高于营业收入同比+3.52%，存在应收与收入增速背离线索；存货同比-8.84%，未见存货异常膨胀；合同负债同比-18.88%，或与预收节奏有关。经营现金流同比-29.11%而净利润同比+3.01%，利润与现金流背离，需核查营运资金占用。其他综合收益税后净额-7.08亿元，主要来自其他权益工具公允价值变动。本期未识别商誉减值、担保、诉讼及持续经营类信号。以上仅为疑点提示，不构成造假结论或投资建议（第2、4、5、7页）。",
+    "risk_hint": "2026Q1归母净利润60.82亿元同比+3.01%，但扣非归母净利润57.02亿元同比-0.27%，非经常性损益影响6.25%，利润增长质量需关注（第2页）。经营活动现金流量净额77.99亿元同比-29.11%，与利润增速背离32.12个百分点，规则发现提示利润与现金流方向背离（第2页）。应收账款同比+11.06%快于营业收入+3.52%，合同负债同比-18.88%，营运资金占用需核查（第4、5页）。其他综合收益税后净额-7.08亿元，来自金融资产公允价值变动（第7页）。未识别商誉减值、担保、诉讼及持续经营类信号。",
+    "rating_note": "内部筛查等级B，得分82.00，覆盖率1.00，状态complete，沿用health_assessment，未自行改分。得分构成：利润现金含量25/25、收入增长15/20、归母净利润增长15/20、资产负债率12/20、非经常性损益影响15/15。该等级为可解释的内部筛查意见，非信用评级或投资建议；资产负债率行业差异需人工复核。",
+    "tracking_metrics": [
+      "经营活动现金流量净额同比及与归母净利润增速差",
+      "扣非归母净利润同比及非经常性损益影响比例",
+      "应收账款同比与营业收入同比的匹配度",
+      "合同负债余额变动及销售商品收到现金"
+    ],
+    "agent_results": {
+      "nonrecurring": {
+        "analysis": "披露事实：2026Q1归母净利润60.82亿元，扣非归母净利润57.02亿元，非经常性损益合计3.80亿元（第2页）。主要项目：公允价值变动及处置金融资产损益3.53亿元、政府补助0.91亿元、其他0.26亿元，资产处置损益-0.11亿元（第2页）。程序计算：非经常性损益影响比例6.25%，扣非同比-0.27%。归母与扣非差异3.80亿元，占比不高，利润对非经常性损益依赖程度有限，未识别显著扰动迹象。",
+        "signal": "low",
+        "evidence_pages": [
+          2,
+          7
+        ]
+      },
+      "accounting": {
+        "analysis": "披露事实：报告第2页明确勾选“公司是否需追溯调整或重述以前年度会计数据——否”，未披露会计政策或会计估计变更，亦无追溯调整、重述事项。程序计算：本期营业收入、归母净利润等同比数据均按原口径列示，未见因口径变化产生的调整项。分析推论：基于现有附注与政策证据，本期未识别会计政策、会计估计及追溯调整事项。建议后续结合完整财务报表附注进一步核查。",
+        "changed": false,
+        "evidence_pages": [
+          2
+        ]
+      },
+      "cashflow": {
+        "analysis": "披露事实：FY2026_Q1归母净利润60.82亿元（同比+3.01%），经营现金流净额77.99亿元（同比-29.11%），见第2页。程序计算：现金含量1.28倍，仍大于1；利润与现金流增速差32.12个百分点，方向背离；营运资金占用变动+4.83亿元，对现金流形成压力，其中合同负债减少28.71亿元、应收账款增加17.69亿元为主要占用项，存货减少24.91亿元部分对冲。分析推论：销售商品收到现金由421.82亿元降至310.98亿元（第8页），是现金流下滑主因，或与预收/合同负债结转及回款节奏有关。四项指标中现金含量尚可，但增速差与营运资金占用共同指向背离。核查建议：结合合同负债、应收及税费、季节性进一步核验。",
+        "divergence": "yes",
+        "evidence_pages": [
+          2,
+          4,
+          5,
+          8
+        ]
+      },
+      "performance": {
+        "summary_text": "格力电器2026年第一季度营业收入429.66亿元，同比增长3.52%；归母净利润60.82亿元，同比增长3.01%；但扣非归母净利润57.02亿元，同比下降0.27%，非经常性损益贡献约3.80亿元。经营活动现金流量净额77.99亿元，同比下降29.11%，与利润增长方向背离32.12个百分点，需关注现金流质量。",
+        "performance_analysis": "营业收入429.66亿元（同比+3.52%），营业成本311.87亿元（同比+3.44%），毛利率27.42%（上期27.36%），基本持平。归母净利润60.82亿元（同比+3.01%），净利率14.16%（上期14.23%），略有下降；扣非归母净利润57.02亿元（同比-0.27%），非经常性损益影响比例6.25%，利润增长主要依赖非经常性损益。加权平均ROE为4.07%，较上期4.21%下降0.14个百分点。经营活动现金流量净额77.99亿元（同比-29.11%），经营现金流/归母净利润为1.28倍，利润与现金流增速差达32.12个百分点，规则发现提示利润增长与经营现金流下降背离。资产负债率59.15%（上期61.73%），流动比率1.12倍（上期1.08倍），短期偿债指标改善。应收账款177.56亿元（同比+11.06%），存货256.93亿元（同比-8.84%），合同负债123.35亿元（同比-18.88%）。财报未明确披露上述变动原因，建议进一步核查。",
+        "key_points": [
+          "营业收入429.66亿元同比+3.52%，归母净利润60.82亿元同比+3.01%，但扣非归母净利润57.02亿元同比-0.27%，非经常性损益影响比例6.25%，利润增长质量需关注。",
+          "经营活动现金流量净额77.99亿元同比-29.11%，与归母净利润增速背离32.12个百分点，规则发现提示利润与现金流增长方向背离。",
+          "毛利率27.42%较上期27.36%基本持平，净利率14.16%较上期14.23%略有下降，加权平均ROE 4.07%较上期下降0.14个百分点。",
+          "资产负债率59.15%较上期61.73%下降，流动比率1.12倍较上期1.08倍改善；应收账款同比+11.06%，合同负债同比-18.88%，变动原因财报未明确披露，建议进一步核查。"
+        ],
+        "evidence_pages": [
+          2,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "other_risks": {
+        "analysis": "本报告为格力电器2026Q1季报，属非金融企业。程序复算显示：应收账款同比+11.06%，明显高于营业收入同比+3.52%，存在应收与收入增速背离线索；存货同比-8.84%，未见存货异常膨胀；合同负债同比-18.88%，或与预收节奏有关。经营现金流同比-29.11%而净利润同比+3.01%，利润与现金流背离，需核查营运资金占用。本期未识别商誉减值、担保、诉讼及持续经营类信号。以上仅为疑点提示，不构成造假结论或投资建议。",
+        "risk_items": [
+          {
+            "title": "应收账款与收入增速背离",
+            "severity": "medium",
+            "statement": "应收账款同比+11.06%，高于营业收入同比+3.52%，应收增速快于收入，需核查账龄、信用政策及回款情况。"
+          },
+          {
+            "title": "利润与经营现金流背离",
+            "severity": "high",
+            "statement": "归母净利润同比+3.01%，经营现金流同比-29.11%，方向背离32.12个百分点，需核查营运资金及税费变动。"
+          },
+          {
+            "title": "合同负债下降",
+            "severity": "low",
+            "statement": "合同负债同比-18.88%，减少约28.71亿元，需关注预收/订单节奏变化对后续收入的影响。"
+          },
+          {
+            "title": "其他综合收益波动",
+            "severity": "low",
+            "statement": "其他综合收益税后净额-7.08亿元，主要来自其他权益工具公允价值变动，需关注金融资产估值波动。"
+          }
+        ],
+        "evidence_pages": [
+          2,
+          4,
+          5,
+          7
+        ]
+      },
+      "rating": {
+        "risk_hint": "2026Q1归母净利润60.82亿元同比+3.01%，但扣非归母净利润57.02亿元同比-0.27%，非经常性损益影响6.25%，利润增长质量需关注（第2页）。经营活动现金流量净额77.99亿元同比-29.11%，与利润增速背离32.12个百分点，规则发现提示利润与现金流方向背离（第2页）。应收账款同比+11.06%快于营业收入+3.52%，合同负债同比-18.88%，营运资金占用需核查（第4、5页）。其他综合收益税后净额-7.08亿元，来自金融资产公允价值变动（第7页）。未识别商誉减值、担保、诉讼及持续经营类信号。",
+        "rating_note": "内部筛查等级B，得分82.00，覆盖率1.00，状态complete，沿用health_assessment，未自行改分。得分构成：利润现金含量25/25、收入增长15/20、归母净利润增长15/20、资产负债率12/20、非经常性损益影响15/15。该等级为可解释的内部筛查意见，非信用评级或投资建议；资产负债率行业差异需人工复核。",
+        "tracking_metrics": [
+          "经营活动现金流量净额同比及与归母净利润增速差",
+          "扣非归母净利润同比及非经常性损益影响比例",
+          "应收账款同比与营业收入同比的匹配度",
+          "合同负债余额变动及销售商品收到现金"
+        ]
+      }
+    },
+    "agent_trace": [
+      {
+        "agent_id": "accounting",
+        "status": "passed",
+        "duration_ms": 2296.553,
+        "cache_hit": false
+      },
+      {
+        "agent_id": "cashflow",
+        "status": "passed",
+        "duration_ms": 1408.693,
+        "cache_hit": false
+      },
+      {
+        "agent_id": "nonrecurring",
+        "status": "passed",
+        "duration_ms": 2119.178,
+        "cache_hit": false
+      },
+      {
+        "agent_id": "other_risks",
+        "status": "passed",
+        "duration_ms": 2140.836,
+        "cache_hit": false
+      },
+      {
+        "agent_id": "performance",
+        "status": "passed",
+        "duration_ms": 3933.67,
+        "cache_hit": false
+      },
+      {
+        "agent_id": "rating",
+        "status": "passed",
+        "duration_ms": 1973.749,
+        "cache_hit": false
+      },
+      {
+        "agent_id": "report_editor",
+        "status": "passed",
+        "duration_ms": 4296.244,
+        "cache_hit": false
+      }
+    ]
+  },
+  "run_id": "20260929_002303_695706_000651_格力电器_2026Q1_第一季度报告",
+  "run_dir": "E:\\金融人工智能\\fin_research_agent\\outputs\\20260929_002303_695706_000651_格力电器_2026Q1_第一季度报告",
+  "business_metrics": []
+}
